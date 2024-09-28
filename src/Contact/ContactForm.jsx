@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./contact.css";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import { Footer } from "../Footer";
+import Spacer from "../Spacer";
 
 export function ContactForm() {
   const form = useRef();
@@ -47,6 +49,7 @@ export function ContactForm() {
               <div className="email-outsides">
                 <h2 className="headertitle">Ready To Get Started?</h2>
                 <h2 className="connector">Let's Connect!</h2>
+                <br></br>
               </div>
             </div>
             <div className="break2"> </div>
@@ -78,16 +81,12 @@ export function ContactForm() {
                 <li key={error}>{error}</li>
               ))}
             </ul>
-            <div className="row">
-              <button className="submitbutton btn btn-secondary mt-3 submit ">SEND</button>
-            </div>
+            <br></br>
+            <button className="submitbutton btn btn-secondary mt-3 submit ">SEND</button>
           </div>
         </form>
-        <br></br>
-        <br></br>
-
-        <br></br>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

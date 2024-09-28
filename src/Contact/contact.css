@@ -51,9 +51,10 @@
 
 
 #contactform{
+  z-index: 20;
+  position: relative;
   height: 70vh;
   margin: auto;
-  padding-top: 30vh;
   text-align: left;
   
 }
@@ -76,9 +77,12 @@ textarea {
 
 }
 
+
 #login{
   width: 75%;
   margin: auto;
+  padding-bottom: 15vh;
+
 }
 
 input:focus {
@@ -120,6 +124,7 @@ input:focus {
 }
 
 .email-main{
+  z-index: -1;
   background-color: var(--blue);
 
 }
