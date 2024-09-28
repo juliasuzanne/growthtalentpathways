@@ -75,10 +75,9 @@
 .hero-logo{
   justify-content: right;
   height: 4.5vw;
-  position: fixed;
+  position: absolute;
   right: 4vw;
   top: 3vh;
-  mix-blend-mode: difference;
   font-size: 50vmin;
 
 

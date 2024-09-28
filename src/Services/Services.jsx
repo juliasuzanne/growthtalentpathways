@@ -21,9 +21,11 @@ export function Services() {
                 ensure you maintain balance and keep moving forward with confidence.
               </p>
             </div>
+            <img className="balance" src="/balance.png" />
+
             <div className="col-lg-6 col-sm-12">
               <ServicesComponent
-                image={"https://cdn-icons-png.flaticon.com/512/2815/2815428.png"}
+                image={"/services-icon-02.png"}
                 content={[
                   "Build a strong work mindset that drives motivation and productivity.",
                   "Set goals that link long term dreams to short term steps.",
@@ -32,7 +34,7 @@ export function Services() {
                 headline={"JOB SEARCH STRATEGY"}
               />
               <ServicesComponent
-                image={"https://cdn-icons-png.flaticon.com/512/2815/2815428.png"}
+                image={"/icons-03.png"}
                 content={[
                   "Assistance with target lists",
                   "Resume and Cover Letter review",
@@ -41,7 +43,7 @@ export function Services() {
                 headline={"SELF-MARKETING & NETWORKING"}
               />
               <ServicesComponent
-                image={"https://cdn-icons-png.flaticon.com/512/2815/2815428.png"}
+                image={"/icons-04.png"}
                 content={[
                   "Pre-Interview preparation: role play and company research",
                   "Presence: zoom etiquette, wardrobe",
