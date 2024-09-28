@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <footer>
-      <p>Copyright 2022</p>
+      <p>©2024 Sara Kontalonis All Rights Reserved</p>
     </footer>
   );
 }

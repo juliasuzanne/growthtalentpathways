@@ -1,9 +1,14 @@
 import { Services } from "./Services/Services";
+import Hero from "./Hero/Hero";
+import WithSara from "./WithSara/WithSara";
+import { ContactForm } from "./Contact/ContactForm";
 export function Home() {
   return (
     <div>
-      <h1>Welcome to React!</h1>
+      <Hero />
       <Services />
+      <WithSara />
+      <ContactForm />
     </div>
   );
 }

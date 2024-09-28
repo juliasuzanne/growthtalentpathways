@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./services.css";
 
 export function ServicesComponent(props) {
   const [showContent, setShowContent] = useState(true);
@@ -19,7 +20,7 @@ export function ServicesComponent(props) {
 
   return (
     <div>
-      <img src={props.image} />
+      <img className="services-icon" src={props.image} />
       <h2>{props.headline}</h2>
 
       <ul hidden={showContent}>
