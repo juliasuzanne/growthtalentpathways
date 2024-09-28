@@ -1,31 +1,36 @@
 .hero-main{
   background-color: var(--blue);
-  padding: 100px;
-  padding-top: 0;
-  margin-top: 0;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  margin: 20px;
-  transform: translateY(-20px);
+  padding: 10vw;
+  padding-top: 2vw;
+  padding-bottom: 7vw;
+  border-bottom-left-radius: 5vh;
+  border-bottom-right-radius: 5vh;
+  width: 80vw;
+  margin: auto;
+  max-width: 100%
+  /* transform: translateY(-30px); */
+  
 
 }
 
 .hero-text{
   color: white;
-  padding-top: 90px;
+  padding-top: 12vw;
   font-family: "NibPro-Light";
-  font-size: 40px;
+  font-size:calc(20px + 2.5vw);
   text-align: left;
   width: 80%;
-  line-height: 65px;
+  line-height: calc(30px + 4vw);
 }
 
 .hero-p{
   color: var(--lime-green);
   text-align: left;
   line-height: 25px;
-
-  width: 50%;
+  font-family: "Lato-Light";
+    width: 50%;
+    font-size: .88em;
+    font-size-adjust: inherit;
 
 
 }
@@ -62,7 +67,16 @@
 
 .hero-button-group{
   padding-top: 30px;
-
   text-align: left;
   margin-left: 0;
+}
+
+
+.hero-logo{
+  justify-content: right;
+  height: 40px;
+  position: fixed;
+  right: 20px;
+  top: 30px;
+
 }

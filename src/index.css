@@ -34,9 +34,12 @@ p{
 body{
   border: none;
   background-color: var(--bg-color);
-
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x:hidden;
   margin: 0px;
 }
+
 html {
   scroll-behavior: smooth;
   background-color: var(--bg-color);
@@ -44,6 +47,9 @@ html {
   border: 0;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+
 
 }
 
