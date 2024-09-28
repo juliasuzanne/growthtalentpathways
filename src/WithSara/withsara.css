@@ -1,19 +1,18 @@
 @media screen and (max-width: 9768px){
   .ws_portrait{
-    transform: translateY(-120px);
     transform: translateX(-70px);
 
-    width: 70vw;
     height: auto;
     padding-left: 0;
-    position: relative;
+    position: absolute;
     margin: 0;
     padding: 0;
     z-index: 0;
     max-width:100vw;
     max-height:100vh;
-    width: auto;
-    height: auto;
+    width: auto;   
+    height: 50vw;
+    transform: translateY(-16vh);
     z-index: 2;
 
   }
@@ -22,11 +21,10 @@
     
     z-index: 5;
     padding-top: 2vh;
-    padding-left: 6vh;
+    padding-left: 50vw;
+    line-height: 5vh;
     font-size: 2vh;
     float: bottom;
-    width: 55%;
-
   
   }
 }
@@ -51,9 +49,9 @@
   .ws-textmain{
     z-index: 5;
     padding-top: 4vh;
-    padding-left: 10vh;
-    padding-bottom: 5vh;
+    padding-left: 40vw;
     font-size: 2vh;
+    
 
   
   }
@@ -63,7 +61,6 @@
   font-family: "Lato-Thin";
   text-transform: uppercase;
   font-size: 3.7vw;
-
   line-height: 5vw;
 }
 
@@ -86,18 +83,13 @@
 .ws-main{
   background-color: var(--lime-green);
 
-  padding-right: 4vw;
-  height: 60vh;
-  display: flex;
-
-
 }
 
 .ws-p{
-  padding-top: 5vh;
+  padding-top: 2vh;
 }
 
 .ws-buttons{
-  padding-top: 3vh;
+  padding-top: 2vh;
 
 }

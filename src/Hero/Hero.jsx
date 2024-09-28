@@ -14,6 +14,7 @@ export default function Hero() {
         success in today’s competitive job market. Whether you’re a recent graduate or looking to pivot, we provide the
         tools and support you need to land the right job and build a fulfilling career.
       </p>
+      <div className="hero-bg" />
       <div className="hero-button-group">
         <button className="white">Contact</button>
         <button className="whiteoutline">Services</button>

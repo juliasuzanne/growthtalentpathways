@@ -3,19 +3,26 @@
   padding: 5vw;
   padding-top: 2vw;
   padding-bottom: 7vw;
-  border-bottom-left-radius: 5vh;
-  border-bottom-right-radius: 5vh;
+  /* border-bottom-left-radius: 5vh;
+  border-bottom-right-radius: 5vh; */
   width: 105vw;
   margin: auto;
-  max-width: 95%
+  max-width: 100%
   /* transform: translateY(-30px); */
   
+
+}
+
+.hero-bg{
+
 
 }
 
 .hero-text{
   color: white;
   padding-top: 8vw;
+  padding-bottom: 3vw;
+
   font-family: "NibPro-Light";
   font-size:calc(20px + 2.5vw);
   text-align: left;

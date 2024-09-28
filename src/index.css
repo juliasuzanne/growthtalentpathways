@@ -87,14 +87,14 @@ html {
 }
 
 .main-div{
-  padding-bottom: -10vh;
 }
 
 #footer{
-  background-color: var(--blue);
+  background-color: #3E4652;
+  padding-bottom: 1px;
+  padding-right: 5px;
   color: var(--lime-green);
-  padding-bottom: 1.5vh;
-  padding-left: 2.5vw;
+  text-align: right;
   letter-spacing: 1px;
   font-size: calc(5px + 1.4vh);
   font-family: "Lato-Thin";
