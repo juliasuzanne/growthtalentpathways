@@ -1,20 +1,70 @@
-html {
-  scroll-behavior: smooth;
+@property --bg-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #FAFFF1;
+  ;
 }
 
-button{
+@property --blue {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #182230;
+}
+
+@property --lime-green {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #C5F39F;
+  ;
+}
+
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--bg-color);
+  margin-top: 0;
+
+
+}
+
+.black{
   border-radius: 12px;
   border-style: none;
   background-color: rgba(0, 0, 0, 20%);
   padding: 10px;
   margin: 10px;
+  color: black;
   text-transform: uppercase;
 }
 
-.outline{
+.blackoutline{
   border-radius: 12px;
-  border: 1.5px solid black;
+  border: 1.5px solid rgba(0, 0, 0, 50%);
+  padding: 8.5px;
+  color: black;
+  background-color: transparent;
+
+}
+
+.white{
+  border-radius: 12px;
+  border-style: none;
+  background-color: rgba(256, 256, 256, 20%);
+  padding: 10px;
+  margin: 10px;
+  text-transform: uppercase;
+  color: white;
+
+}
+
+.whiteoutline{
+  text-transform: uppercase;
+  border-radius: 12px;
+  border: 1.5px solid rgba(256, 256, 256, 50%);
+  color: white;
   padding: 8.5px;
   background-color: transparent;
 
 }
+
+

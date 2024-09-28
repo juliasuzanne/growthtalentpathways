@@ -9,8 +9,8 @@ export default function WithSara() {
         processes. My passion is helping my clients develop essential habits to navigate the transition from college
         life to the workplace, reducing stress through practical strategies.
       </p>
-      <button>LinkedIn</button>
-      <button className="outline">CV</button>
+      <button className="black">LinkedIn</button>
+      <button className="blackoutline">CV</button>
     </div>
   );
 }
