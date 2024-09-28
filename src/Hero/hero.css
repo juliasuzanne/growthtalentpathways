@@ -5,9 +5,9 @@
   padding-bottom: 7vw;
   border-bottom-left-radius: 5vh;
   border-bottom-right-radius: 5vh;
-  width: 80vw;
+  width: 105vw;
   margin: auto;
-  max-width: 100%
+  max-width: 95%
   /* transform: translateY(-30px); */
   
 
@@ -15,11 +15,11 @@
 
 .hero-text{
   color: white;
-  padding-top: 12vw;
+  padding-top: 8vw;
   font-family: "NibPro-Light";
   font-size:calc(20px + 2.5vw);
   text-align: left;
-  width: 80%;
+  width: 100%;
   line-height: calc(30px + 4vw);
 }
 
@@ -74,9 +74,12 @@
 
 .hero-logo{
   justify-content: right;
-  height: 40px;
+  height: 4.5vw;
   position: fixed;
-  right: 20px;
-  top: 30px;
+  right: 4vw;
+  top: 3vh;
+  mix-blend-mode: difference;
+  font-size: 50vmin;
+
 
 }

@@ -21,7 +21,7 @@ export function ServicesComponent(props) {
   return (
     <div className="services-div">
       <img className="services-icon" src={props.image} />
-      <h2>{props.headline}</h2>
+      <h2 className="services-div-headline">{props.headline}</h2>
 
       <ul hidden={showContent}>
         {props.content.map((el) => {

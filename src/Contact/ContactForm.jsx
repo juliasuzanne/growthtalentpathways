@@ -52,15 +52,13 @@ export function ContactForm() {
             <div className="break2"> </div>
             <div className="row">
               <div className="col-lg-4 col-sm-12">
-                <input name="email" className="form-control" type="email" placeholder="E-mail" />
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-4 col-sm-12">
                 <input name="name" className="form-control" type="string" placeholder="First Name" />
               </div>
               <div className="col-lg-4 col-sm-12">
                 <input name="last_name" className="form-control" type="string" placeholder="Last Name" />
+              </div>
+              <div className="col-lg-4 col-sm-12">
+                <input name="email" className="form-control" type="email" placeholder="E-mail" />
               </div>
             </div>
             <div className="row">

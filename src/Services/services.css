@@ -1,7 +1,9 @@
 .services-icon{
-  height: 20vh;
+  height: 23vh;
   float: left;
   padding-right: 20px;
+  padding-left: 0px;
+  padding-bottom: 10vh;
 }
 
 .services-div{
@@ -10,11 +12,19 @@
   padding: 20px;
   min-height: 20vh;
   color: white;
-  width: 50%;
   right: 0;
-  border-top-left-radius: 20px;
+  border-radius: 20px;
   font-family: "Lato";
   border-bottom-left-radius: 20px;
+  min-width: 50vw;
+  padding-right: 5vw;
+}
+
+.services-div-headline{
+  font-size: 1.6vw;
+  letter-spacing: .12vw;
+  font-family: "Lato";
+  padding: 0;
 
 }
 
@@ -23,7 +33,6 @@
   border-radius: 12px;
   border-style: none;
   background-color: rgba(256, 256, 256, 0%);
-  padding: 10px;
   margin: 10px;
   text-transform: uppercase;
   color: var(--lime-green);
@@ -35,9 +44,12 @@
 }
 
 .services-main{
-  width: 100vw;
   background-color: var(--bg-color);
-  margin: 120px;
+  margin-left: auto;
+  margin-right: 0;
+  padding-top: 14vh;
+  padding-bottom: 14vh;
+
 
 }
 
@@ -48,19 +60,29 @@
 .services-title1{
   font-family: "Lato-Thin";
   text-transform: uppercase;
+  font-size: 3.8vw;
 }
 
 .services-title2{
   font-family: "NibPro-BoldItalic";
+  font-size: 2.8vw;
+
 }
 
 .services-title3{
   font-family: "NibPro-Bold";
   text-transform: uppercase;
+  font-size: 5vw;
+
 }
 
 .services-p{
-  width: 50%;
+  font-size: 1.3vw;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: "Lato";
+  margin-right: 3vw;
+
 
 }
 
