@@ -14,8 +14,24 @@
 
 .services-main{
   width: 100vw;
+  background-color: var(--bg-color);
+
 }
 
 .services-overview{
   background-color: var(--bg-color)
+}
+
+.services-title1{
+  font-family: "Raleway-Thin";
+  text-transform: uppercase;
+}
+
+.services-title2{
+  font-family: "NibPro-BoldItalic";
+}
+
+.services-title3{
+  font-family: "NibPro-Bold";
+  text-transform: uppercase;
 }

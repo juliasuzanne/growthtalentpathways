@@ -4,7 +4,8 @@ export function Services() {
     <div className="services-main">
       <div className="services-overview">
         <h1>
-          <span>Overview</span> <span> of </span> <span>Services</span>
+          <span className="services-title1">Overview</span> <span className="services-title2"> of </span>{" "}
+          <span className="services-title3">Services</span>
         </h1>
         <p>
           In addition to the technical services and coaching, I provide holistic support every step of the way. From

@@ -1,8 +1,11 @@
+import "./withsara.css";
+
 export default function WithSara() {
   return (
     <div>
       <h1>
-        <span>Working</span> <span> with </span> <span>Sara</span>
+        <span className="ws-title1">Working</span> <span className="ws-title2"> with </span>{" "}
+        <span className="ws-title3">Sara</span>
       </h1>
       <p>
         After spending many years in recruitment, I have unique insight into the interview and talent acquisition

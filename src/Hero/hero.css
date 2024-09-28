@@ -1,17 +1,68 @@
 .hero-main{
   background-color: var(--blue);
-  padding: 20px;
+  padding: 100px;
+  padding-top: 0;
   margin-top: 0;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-
+  margin: 20px;
+  transform: translateY(-20px);
 
 }
 
 .hero-text{
   color: white;
+  padding-top: 90px;
+  font-family: "NibPro-Light";
+  font-size: 40px;
+  text-align: left;
+  width: 80%;
+  line-height: 65px;
 }
 
 .hero-p{
   color: var(--lime-green);
+  text-align: left;
+  line-height: 25px;
+
+  width: 50%;
+
+
+}
+
+.bold-italic{
+  font-family: "NibPro-BoldItalic";
+}
+
+
+.white{
+  border-radius: 12px;
+  border-style: none;
+  background-color: rgba(256, 256, 256, 20%);
+  padding: 10px;
+  margin: 10px;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 0;
+
+
+}
+
+.whiteoutline{
+  text-transform: uppercase;
+  border-radius: 12px;
+  border: 1.5px solid rgba(256, 256, 256, 50%);
+  color: white;
+  padding: 8.5px;
+  background-color: transparent;
+  margin-left: 0;
+
+
+}
+
+.hero-button-group{
+  padding-top: 30px;
+
+  text-align: left;
+  margin-left: 0;
 }

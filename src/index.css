@@ -18,12 +18,27 @@
   ;
 }
 
+h1{
+  font-family: "NibPro-Regular";
+}
 
+p{
+  font-family: "raleway";
+}
+
+body{
+  border: none;
+  background-color: var(--bg-color);
+
+  margin: 0px;
+}
 html {
   scroll-behavior: smooth;
   background-color: var(--bg-color);
   margin-top: 0;
-
+  border: 0;
+  padding: 0;
+  margin: 0;
 
 }
 
@@ -46,33 +61,24 @@ html {
 
 }
 
-.white{
-  border-radius: 12px;
-  border-style: none;
-  background-color: rgba(256, 256, 256, 20%);
-  padding: 10px;
-  margin: 10px;
-  text-transform: uppercase;
-  color: white;
-
-}
-
-.whiteoutline{
-  text-transform: uppercase;
-  border-radius: 12px;
-  border: 1.5px solid rgba(256, 256, 256, 50%);
-  color: white;
-  padding: 8.5px;
-  background-color: transparent;
-
-}
-
-
-
-
 #root {
-  text-align: center;
+  text-align: left;
 }
+
+@font-face {
+  font-family: "Raleway-ExtraLight";   /*Can be any text*/
+  src: local("Raleway-ExtraLight"),
+    url("/src/assets/raleway.extralight.ttf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "Raleway-Thin";   /*Can be any text*/
+  src: local("Raleway-Thin"),
+    url("/src/assets/raleway.thin.ttf") format("truetype"),
+
+}
+
 
 @font-face {
   font-family: "raleway";   /*Can be any text*/
