@@ -19,7 +19,7 @@ export function ServicesComponent(props) {
   }
 
   return (
-    <div>
+    <div className="services-div">
       <img className="services-icon" src={props.image} />
       <h2>{props.headline}</h2>
 

@@ -1,16 +1,19 @@
 import { ServicesComponent } from "./ServicesComponent";
 export function Services() {
   return (
-    <div>
-      <h1>
-        <span>Overview</span> <span> of </span> <span>Services</span>
-      </h1>
-      <p>
-        In addition to the technical services and coaching, I provide holistic support every step of the way. From
-        managing expectations and staying productive, to overcoming negativity and minimizing stress, our coaching
-        offers comprehensive guidance to help you navigate challenges and stay motivated. I‘m here to ensure you
-        maintain balance and keep moving forward with confidence.
-      </p>
+    <div className="services-main">
+      <div className="services-overview">
+        <h1>
+          <span>Overview</span> <span> of </span> <span>Services</span>
+        </h1>
+        <p>
+          In addition to the technical services and coaching, I provide holistic support every step of the way. From
+          managing expectations and staying productive, to overcoming negativity and minimizing stress, our coaching
+          offers comprehensive guidance to help you navigate challenges and stay motivated. I‘m here to ensure you
+          maintain balance and keep moving forward with confidence.
+        </p>
+      </div>
+
       <ServicesComponent
         image={"https://cdn-icons-png.flaticon.com/512/2815/2815428.png"}
         content={[

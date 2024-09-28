@@ -68,3 +68,83 @@ html {
 }
 
 
+
+
+#root {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "raleway";   /*Can be any text*/
+  src: local("raleway"),
+    url("/src/assets/raleway.ttf") format("truetype"),
+
+}
+
+
+@font-face {
+  font-family: "Raleway-SemiBold";   /*Can be any text*/
+  src: local("Raleway-SemiBold"),
+    url("/src/assets/Raleway-SemiBold.ttf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "Raleway-Medium";   /*Can be any text*/
+  src: local("Raleway-Medium"),
+    url("/src/assets/Raleway-Medium.ttf") format("truetype"),
+
+}
+
+
+
+@font-face {
+  font-family: "NibPro-Light";   /*Can be any text*/
+  src: local("NibPro-Light"),
+    url("/src/assets/NibPro-Light.ttf") format("truetype"),
+
+}
+
+
+@font-face {
+  font-family: "NibPro-Regular";   /*Can be any text*/
+  src: local("NibPro-Regular"),
+    url("/src/assets/NibPro-Regular.ttf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "NibPro-SemiBold";   /*Can be any text*/
+  src: local("NibPro-SemiBold"),
+    url("/src/assets/NibPro-SemiBold.ttf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "NibPro-Bold";   /*Can be any text*/
+  src: local("NibPro-Bold"),
+    url("/src/assets/NibPro-Bold.ttf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "NibPro-Black";   /*Can be any text*/
+  src: local("NibPro-Black"),
+    url("/src/assets/NibPro-Black.ttf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "NibPro-LightItalic";   /*Can be any text*/
+  src: local("NibPro-LightItalic"),
+    url("/src/assets/NibPro-LightItalic.ttf") format("truetype"),
+
+}
+
+@font-face {
+  font-family: "NibPro-BoldItalic";   /*Can be any text*/
+  src: local("NibPro-BoldItalic"),
+    url("/src/assets/NibPro-BoldItalic.ttf") format("truetype"),
+
+}
+
