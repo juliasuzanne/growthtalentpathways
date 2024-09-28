@@ -2,7 +2,7 @@
 
   
   .submitbutton{
-    font-family: "raleway";
+    font-family: "Lato";
     border-radius: 12px;
     border-style: none;
     background-color: #c5f39f3d;
@@ -70,7 +70,7 @@ textarea {
   border-radius: 7px;
   min-height: 50px;
   padding: .4em;
-  font-family: "raleway";
+  font-family: "Lato";
   background-color: #EAEFE2;
 
 
@@ -89,7 +89,7 @@ input:focus {
 .form-control{
   float: right;
   margin-bottom: 30px;
-  font-family: "raleway";
+  font-family: "Lato";
   font-size: 1em;
   border: none;
   background-color: #EAEFE2;
@@ -102,7 +102,7 @@ input:focus {
 }
 
 .headertitle{
-  font-family: "Raleway-Thin";
+  font-family: "Lato-Thin";
   color: var(--lime-green);
   font-size: 20px;
   text-transform: uppercase;
@@ -110,8 +110,9 @@ input:focus {
 }
 
 .connector{
-  font-family: "NibPro-LightItalic";
+  font-family: "NibPro-SemiBoldItalic";
   font-size: 42px;
+  letter-spacing: 1.5px;
   text-transform: capitalize;
   color: white;
 

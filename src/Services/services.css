@@ -13,7 +13,7 @@
   width: 50%;
   right: 0;
   border-top-left-radius: 20px;
-  font-family: "raleway";
+  font-family: "Lato";
   border-bottom-left-radius: 20px;
 
 }
@@ -28,7 +28,7 @@
   text-transform: uppercase;
   color: var(--lime-green);
   margin-left: 0;
-  font-family: "raleway";
+  font-family: "Lato";
   letter-spacing: 2px;
 
   
@@ -46,7 +46,7 @@
 }
 
 .services-title1{
-  font-family: "Raleway-Thin";
+  font-family: "Lato-Thin";
   text-transform: uppercase;
 }
 
@@ -65,5 +65,5 @@
 }
 
 .services-p-bold{
-  font-family: "Raleway-SemiBold";
+  font-family: "Lato-SemiBold";
 }
