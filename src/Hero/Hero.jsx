@@ -7,7 +7,7 @@ export default function Hero() {
 
       <h1 className="hero-text">
         Getting your first ‘real job’ or making a career change in your early years{" "}
-        <span className="bold-italic"> can be overwhelming</span>
+        <span className="bold-italic"> can be overwhelming.</span>
       </h1>
       <p className="hero-p">
         Our Early Career Coaching (ECC) program is crafted to help you overcome challenges and position yourself for

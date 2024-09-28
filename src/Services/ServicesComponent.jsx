@@ -28,7 +28,9 @@ export function ServicesComponent(props) {
           return <li>{el}</li>;
         })}
       </ul>
-      <button onClick={() => handleClickMore()}>{buttonText}</button>
+      <button className="more-button" onClick={() => handleClickMore()}>
+        {buttonText}
+      </button>
     </div>
   );
 }

@@ -18,6 +18,22 @@
 
 }
 
+.more-button{
+  color: var(--lime-green);
+  border-radius: 12px;
+  border-style: none;
+  background-color: rgba(256, 256, 256, 0%);
+  padding: 10px;
+  margin: 10px;
+  text-transform: uppercase;
+  color: var(--lime-green);
+  margin-left: 0;
+  font-family: "raleway";
+  letter-spacing: 2px;
+
+  
+}
+
 .services-main{
   width: 100vw;
   background-color: var(--bg-color);
