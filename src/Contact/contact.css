@@ -2,17 +2,18 @@
 
   
   .submitbutton{
-    background: transparent;
-    border-radius: 10px;
-    text-decoration: underline;
-    float: right;
-    width: 10%;
-    color: rgb(52,56,76);
-    font-size: 20px;
-    font-family: "NibPro-Bold";
-    border-width: 0px;
+    font-family: "raleway";
+    border-radius: 12px;
+    border-style: none;
+    background-color: #c5f39f3d;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 0;
 
   }
+
 
   .submitbutton:hover{
     color: rgb(94, 98, 121);
@@ -28,15 +29,14 @@
 
 
   .submitbutton{
-    background: transparent;
-    border-radius: 10px;
-    text-decoration: underline;
-    float: right;
-    width: 30%;
-    color: rgb(52,56,76);
-    font-size: 15px;
-    font-family: "NibPro-Bold";
-    border-width: 0px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: rgba(256, 256, 256, 20%);
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 0;
 
   }
 
@@ -50,17 +50,15 @@
 
 
 
-
 #contactform{
   height: 70vh;
   margin: auto;
   padding-top: 30vh;
   text-align: left;
-  color:rgb(36, 25, 69);
+  
 }
 
 .contactwrapper{
-  background-color:#f2f0f0;
   height: 100vh;
 }
 
@@ -73,6 +71,8 @@ textarea {
   min-height: 50px;
   padding: .4em;
   font-family: "raleway";
+  background-color: #EAEFE2;
+
 
 }
 
@@ -92,10 +92,33 @@ input:focus {
   font-family: "raleway";
   font-size: 1em;
   border: none;
-  background: white;
+  background-color: #EAEFE2;
+
   border-bottom: 1px solid rgb(59, 31, 9);
 }
 
 .email-outsides{
   padding-top: 5vh;
+}
+
+.headertitle{
+  font-family: "Raleway-Thin";
+  color: var(--lime-green);
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.connector{
+  font-family: "NibPro-LightItalic";
+  font-size: 42px;
+  text-transform: capitalize;
+  color: white;
+
+
+}
+
+.email-main{
+  background-color: var(--blue);
+
 }
