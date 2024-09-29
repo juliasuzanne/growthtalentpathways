@@ -90,13 +90,14 @@ html {
 }
 
 #footer{
-  background-color: #3E4652;
+  background-color: var(--blue);
   padding-bottom: 1px;
   padding-right: 5px;
-  color: var(--lime-green);
+  color: white;
+  opacity: 80%;
   text-align: right;
   letter-spacing: 1px;
-  font-size: calc(5px + 1.4vh);
+  font-size: calc(3px + 1.4vh);
   font-family: "Lato-Thin";
 
 }
