@@ -25,7 +25,7 @@ export function Services() {
 
             <div className="col-lg-6 col-sm-12">
               <ServicesComponent
-                image={"/services-icon-02.png"}
+                image={"/icons-reg-03.png"}
                 content={[
                   "Build a strong work mindset that drives motivation and productivity.",
                   "Set goals that link long term dreams to short term steps.",
@@ -34,7 +34,7 @@ export function Services() {
                 headline={"JOB SEARCH STRATEGY"}
               />
               <ServicesComponent
-                image={"/icons-03.png"}
+                image={"/icons-reg-07.png"}
                 content={[
                   "Assistance with target lists",
                   "Resume and Cover Letter review",
@@ -43,7 +43,7 @@ export function Services() {
                 headline={"SELF-MARKETING & NETWORKING"}
               />
               <ServicesComponent
-                image={"/icons-04.png"}
+                image={"/icons-reg-06.png"}
                 content={[
                   "Pre-Interview preparation: role play and company research",
                   "Presence: zoom etiquette, wardrobe",
