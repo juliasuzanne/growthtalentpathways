@@ -49,6 +49,7 @@ html {
   margin: 0;
   box-sizing: border-box;
   max-width: 100%;
+  overflow-x: hidden;
 
 
 }
@@ -84,9 +85,11 @@ html {
 
 #root {
   text-align: left;
+  overflow-x: hidden;
 }
 
 .main-div{
+  overflow-x: hidden;
 }
 
 #footer{
