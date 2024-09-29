@@ -1,11 +1,12 @@
 .hero-main{
   background-color: var(--blue);
-  padding: 5vw;
+  padding: 10vw;
   padding-top: 2vw;
   padding-bottom: 7vw;
   /* border-bottom-left-radius: 5vh;
   border-bottom-right-radius: 5vh; */
   width: 105vw;
+  min-height: 100vh;
   margin: auto;
   max-width: 100%
   /* transform: translateY(-30px); */
@@ -36,7 +37,7 @@
   line-height: 25px;
   font-family: "Lato-Light";
     width: 50%;
-    font-size: .88em;
+    font-size: .94em;
     font-size-adjust: inherit;
 
 
@@ -83,9 +84,10 @@
   justify-content: right;
   height: 4.5vw;
   position: absolute;
-  right: 4vw;
+  right: 2vw;
   top: 3vh;
   font-size: 50vmin;
+  opacity: 80%;
 
 
 }

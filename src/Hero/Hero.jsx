@@ -3,7 +3,7 @@ import "./hero.css";
 export default function Hero() {
   return (
     <div className="hero-main">
-      <img className="hero-logo" src="/logo.png" />
+      <img className="hero-logo" src="/logo-website.png" />
 
       <h1 className="hero-text">
         Getting your first ‘real job’ or making a career change in your early years{" "}

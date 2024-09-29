@@ -9,10 +9,9 @@
 
 .services-div{
   position: relative;
-
   z-index: 5;
   font-size: 13px;
-  max-width: 70%;
+  max-width: 100%;
   background-color: var(--blue);
   margin-bottom: 20px;
   padding: 20px;
@@ -20,7 +19,7 @@
   color: white;
   right: 0;
   border-radius: 20px;
-  font-family: "Lato";
+  font-family: "Lato-Light";
   border-bottom-left-radius: 20px;
   min-width: 50vw;
   padding-right: 5vw;
@@ -28,7 +27,7 @@
 }
 
 .services-div-headline{
-  font-size: 1.6vw;
+  font-size: 1.7em;
   letter-spacing: .12vw;
   font-family: "Lato";
   padding: 0;
@@ -100,7 +99,7 @@
 .services-p{
   z-index: 50;
   position: relative;
-  font-size: 1.3vw;
+  font-size: .9em;
   text-align: justify;
   text-justify: inter-word;
   font-family: "Lato";
