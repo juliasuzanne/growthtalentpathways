@@ -63,12 +63,23 @@
   text-align: left;
   line-height: 25px;
   font-family: "Lato-Light";  
-  width: 95%;
+  width: 100%;
     font-size: .94em;
     font-size-adjust: inherit;
 
 
 }
+
+.hero-row{
+  padding: 0;
+
+}
+
+.hero-container{
+    margin:6px;
+
+}
+
 
 .bold-italic{
   font-family: "NibPro-BoldItalic";

@@ -10,9 +10,9 @@ export default function Hero() {
         <span className="bold-italic"> can be overwhelming.</span>
       </h1>
 
-      <div className="container">
+      <div className="hero-container container">
         <div className="row">
-          <div className="col-lg-6 col-sm-12">
+          <div className="hero-row col-lg-6 col-sm-12">
             <p className="hero-p">
               Our Early Career Coaching (ECC) program is crafted to help you overcome challenges and position yourself
               for success in today’s competitive job market. Whether you’re a recent graduate or looking to pivot, we
