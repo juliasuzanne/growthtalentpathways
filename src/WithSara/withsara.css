@@ -1,7 +1,6 @@
-@media screen and (max-width: 9768px){
-  .ws_portrait{
-    transform: translateX(-70px);
-
+  .ws_portraitA{
+    transform: translateX(-200px);
+    display: inline;
     height: auto;
     padding-left: 0;
     position: absolute;
@@ -16,31 +15,76 @@
     z-index: 2;
 
   }
+
+  .ws-p{
+    padding-top: 2vh;
+    text-align: left;
+  
+  }
+  
   
   .ws-textmain{
     
     z-index: 5;
     padding-top: 2vh;
-    padding-left: 50vw;
+    padding-left: 15vw;
     line-height: 5vh;
     font-size: 2vh;
     width: 92%;
     float: bottom;
   
   }
-}
 
-@media screen and (max-width: 768px){
-  .ws_portrait{
-    transform: translateY(35vw);
+  .ws_portraitB{
+    display: none;
+
+  }
+
+  .ws-title1{
+    font-family: "Lato-Thin";
+    text-transform: uppercase;
+    font-size: 3.7vw;
+    line-height: 5vw;
+  }
+  .ws-title20{
+    font-family: "NibPro-BoldItalic";
+    font-size: 3.3vw;
+    line-height: 60px;
+    display: none;
+  }
+  
+  .ws-title21{
+    font-family: "NibPro-BoldItalic";
+    font-size: 3.3vw;
+    line-height: 5vw;
+    display: inline;
+  }
+  
+  .ws-title3{
+    font-family: "NibPro-Bold";
+    text-transform: uppercase;
+    font-size: 5.5vw;
+    line-height: 5vw;
+  }
+  
+
+@media screen and (max-width: 981px){
+  .ws_portraitA{
+    display: none;
+
+  }
+  .ws_portraitB{
+    display: inline;
+
+    transform: translateY(29vw);
     height: auto;
     padding-left: 0;
     position: relative;
     margin: 0;
     padding: 0;
     z-index: 0;
-    max-width:30vw;
-    max-height:30vh;
+    max-width:80vw;
+    max-height:100vh;
     width: auto;
     height: auto;
     z-index: 2;
@@ -48,37 +92,55 @@
   }
   
   .ws-textmain{
+    transform: translateY(15vw);
+
     z-index: 5;
-    padding-top: 4vh;
-    padding-left: 40vw;
-
+    padding-top: 0vh;
+    padding-left: 0vw;
+    line-height: 5vh;
     font-size: 2vh;
-    
+    width: 100%;
+    float: bottom;
+    text-align: right;
+  }
 
+  .ws-title1{
+    font-family: "Lato-Thin";
+    text-transform: uppercase;
+    font-size: 7.3vw;
+    line-height: 5vw;
+  }
+
+  .ws-title20{
+    font-family: "NibPro-BoldItalic";
+    font-size: 7.3vw;
+    line-height: 60px;
+    display: inline;
+  }
+  
+  .ws-title21{
+    font-family: "NibPro-BoldItalic";
+    font-size: 7.3vw;
+    line-height: 5vw;
+    display: none;
+  }
+  
+  .ws-title3{
+    font-family: "NibPro-Bold";
+    text-transform: uppercase;
+    font-size: 11.5vw;
+    line-height: 5vw;
+  }
+
+  .ws-p{
+    padding-top: 2vh;
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    font-size: 3.9vw;
   
   }
-}
-
-.ws-title1{
-  font-family: "Lato-Thin";
-  text-transform: uppercase;
-  font-size: 3.7vw;
-  line-height: 5vw;
-}
-
-.ws-title2{
-  font-family: "NibPro-BoldItalic";
-  font-size: 3.3vw;
-  line-height: 5vw;
-
-}
-
-.ws-title3{
-  font-family: "NibPro-Bold";
-  text-transform: uppercase;
-  font-size: 5.5vw;
-  line-height: 5vw;
-
+  
 
 }
 
@@ -87,9 +149,6 @@
 
 }
 
-.ws-p{
-  padding-top: 2vh;
-}
 
 .ws-buttons{
   padding-top: 2vh;
