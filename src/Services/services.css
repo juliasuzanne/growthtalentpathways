@@ -1,3 +1,4 @@
+
 .services-icon{
   width: 100%;
   max-width: 130px;
@@ -58,8 +59,6 @@
   padding-bottom: 14vh;
   z-index: 5;
 
-
-
 }
 
 .services-overview{
@@ -104,13 +103,13 @@
   text-justify: inter-word;
   font-family: "Lato";
   margin-right: 3vw;
+  padding-bottom: 0;
 
 
 }
 
 .services-p-bold{
   z-index: 5;
-
   font-family: "Lato-SemiBold";
 }
 
@@ -121,3 +120,129 @@
   opacity: 70%;
   width: auto;
 }
+
+@media screen and (max-width: 900px){
+
+  .icon-container{
+    text-align: center;
+    padding-bottom: 2vh;
+  }
+
+  .services-main{
+    background-color: var(--bg-color);
+    margin: auto;
+    padding-top: 4vh;
+    padding-bottom: 0vh;
+    z-index: 5;
+    max-width: 80%;
+  }
+
+  .services-title1{
+    z-index: 5;
+    position: relative;
+    font-family: "Lato-Thin";
+    text-transform: uppercase;
+    font-size: 10.4vw;
+  }
+  
+  .services-title2{
+    z-index: 5;
+    position: relative;
+  
+    font-family: "NibPro-BoldItalic";
+    font-size: 5.8vw;
+  
+  }
+  
+  .services-title3{
+    z-index: 5;
+    position: relative;
+  
+    font-family: "NibPro-Bold";
+    text-transform: uppercase;
+    font-size: 15vw;
+  
+  }
+
+  .services-p{
+    z-index: 50;
+    position: relative;
+    font-size: .8em;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: "Lato";
+    margin-right: 0vw;
+    max-width: 100%;
+    padding-bottom: 1vh;
+  
+  }
+
+  .services-p-bold{
+    z-index: 5;
+    font-family: "Lato-SemiBold";
+  }
+
+  .balance{
+    z-index: 0;
+    position: absolute;
+    padding-left:35vw;
+    height: 30vh;
+    width: 30vh;
+    opacity: 70%;
+    width: auto;
+  }
+
+  .services-icon{
+    width: 50%;
+    max-width: 90px;
+    margin: 0;
+    padding-left: 0vw;
+  }
+  
+  
+  .services-div{
+    position: relative;
+    z-index: 5;
+    font-size: 13px;
+    max-width: 100%;
+    background-color: var(--blue);
+    margin-bottom: 20px;
+    padding: 20px;
+    min-height: 20vh;
+    color: white;
+    right: 0;
+    border-radius: 20px;
+    font-family: "Lato-Light";
+    border-bottom-left-radius: 20px;
+    min-width: 50vw;
+    padding-right: 5vw;
+    line-height: 5.25vw;
+  }
+  
+  .services-div-headline{
+    font-size: 1.4em;
+    letter-spacing: .12vw;
+    font-family: "Lato";
+    padding: 0;
+    text-align: center;
+  
+  }
+  
+  .more-button{
+    color: var(--lime-green);
+    border-radius: 12px;
+    border-style: none;
+    background-color: rgba(256, 256, 256, 0%);
+    margin: 10px;
+    text-transform: uppercase;
+    color: var(--lime-green);
+    margin-left: 0;
+    font-family: "Lato";
+    letter-spacing: 2px;
+    text-align: center;
+
+    
+  }
+
+}
+

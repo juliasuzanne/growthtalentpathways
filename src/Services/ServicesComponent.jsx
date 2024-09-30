@@ -22,7 +22,7 @@ export function ServicesComponent(props) {
     <div className="services-div">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-sm-3">
+          <div className="col-lg-4 col-sm-3 icon-container">
             <img className="services-icon" src={props.image} />
           </div>
           <div className="col-lg-8 col-sm-9">
