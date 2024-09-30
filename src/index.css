@@ -54,24 +54,6 @@ html {
 
 }
 
-.black{
-  border-radius: 12px;
-  border-style: none;
-  background-color: rgba(0, 0, 0, 20%);
-  padding: 10px;
-  margin: 10px;
-  color: black;
-  text-transform: uppercase;
-}
-
-.blackoutline{
-  border-radius: 12px;
-  border: 1.5px solid rgba(0, 0, 0, 50%);
-  padding: 8.5px;
-  color: black;
-  background-color: transparent;
-
-}
 
 .spacer{
   height: 200px;

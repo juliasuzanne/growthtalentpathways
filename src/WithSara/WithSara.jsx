@@ -1,5 +1,4 @@
 import "./withsara.css";
-import Spacer from "../Spacer";
 
 export default function WithSara() {
   return (
@@ -17,8 +16,12 @@ export default function WithSara() {
           life to the workplace, reducing stress through practical strategies.
         </p>
         <div className="ws-buttons">
-          <button className="black">LinkedIn</button>
-          <button className="blackoutline">CV</button>
+          <a href="https://www.linkedin.com/in/sarakontalonis/" target="_blank">
+            <button className="black">LinkedIn</button>
+          </a>
+          <a href="/SJKResumeGTS.pdf" download>
+            <button className="blackoutline">CV</button>{" "}
+          </a>
         </div>
 
         <br></br>

@@ -111,6 +111,32 @@
 
 }
 
+.white:hover{
+  border-radius: 12px;
+  border-style: none;
+  background-color: rgba(256, 256, 256, 10%);
+  padding: 10px;
+  margin: 10px;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 0;
+
+
+}
+
+.whiteoutline:hover{
+  text-transform: uppercase;
+  border-radius: 12px;
+  border: 1.5px solid rgba(256, 256, 256, 10%);
+  background-color: rgba(256, 256, 256, 2%);
+
+  color: white;
+  padding: 8.5px;
+  margin-left: 0;
+
+
+}
+
 .hero-button-group{
   padding-top: 30px;
   text-align: left;

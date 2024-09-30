@@ -19,8 +19,12 @@ export default function Hero() {
               provide the tools and support you need to land the right job and build a fulfilling career.
             </p>
             <div className="hero-button-group">
-              <button className="white">Contact</button>
-              <button className="whiteoutline">Services</button>
+              <a href="#contact">
+                <button className="white">Contact</button>
+              </a>
+              <a href="#services">
+                <button className="whiteoutline">Services</button>
+              </a>
             </div>
           </div>
           <div className="col-lg-6 col-sm-12">

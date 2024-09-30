@@ -41,7 +41,7 @@ export function ContactForm() {
   };
 
   return (
-    <div className="email-main">
+    <div id="contact" className="email-main">
       <div id="login">
         <form ref={form} onSubmit={sendEmail}>
           <div className="container">

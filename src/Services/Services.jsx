@@ -1,7 +1,7 @@
 import { ServicesComponent } from "./ServicesComponent";
 export function Services() {
   return (
-    <div className="services-main">
+    <div className="services-main" id="services">
       <div className="services-overview">
         <div className="container">
           <div className="row">
