@@ -4,6 +4,7 @@ import { useState } from "react";
 
 export function Services() {
   const [startAnim, setStartAnim] = useState(false);
+  const [scrollAnim, setScrollAnim] = useState(false);
 
   const startAnimating = () => {
     console.log("startFixedHeadline");
@@ -11,21 +12,48 @@ export function Services() {
   };
 
   const stopAnimating = () => {
-    console.log("startFixedHeadline");
+    console.log("stopFixedHeadline");
     setStartAnim(false);
   };
+
+  const startScroll = () => {
+    console.log("startFixedHeadline");
+    setScrollAnim(true);
+  };
+
+  const stopScroll = () => {
+    console.log("stopFixedHeadline");
+    setScrollAnim(false);
+  };
+
   return (
     <div className="services-main" id="services">
       <div className="services-overview">
-        <div className="container ">
+        <div className="container">
           <div className="row">
-            <div className=" col-lg-6 col-sm-12">
-              <div className={`${startAnim ? "services-title-main-sticky" : "services-title-main-rel"}`}>
+            <ObserverComponent
+              mainDivClass={"blue"}
+              settingVisible={startScroll}
+              settingNotVisible={stopScroll}
+            ></ObserverComponent>
+            <ObserverComponent
+              mainDivClass={"red"}
+              settingVisible={startAnimating}
+              settingNotVisible={stopAnimating}
+            ></ObserverComponent>
+
+            <div className="col-lg-6 col-sm-12">
+              <div
+                className={`${
+                  startAnim && scrollAnim ? "services-title-main-sticky" : `services-title-main-rel${scrollAnim}`
+                }`}
+              >
                 <h1>
                   <span className="services-title1">Overview</span> <span className="services-title2"> of </span>{" "}
                   <br></br>
                   <span className="services-title3">Services</span>
                 </h1>
+
                 <p className="services-p">
                   <span className="services-p-bold">
                     {" "}
@@ -51,6 +79,7 @@ export function Services() {
                 ]}
                 headline={"JOB SEARCH STRATEGY"}
               />
+
               <ServicesComponent
                 image={"/icons-reg-07.png"}
                 content={[
@@ -60,6 +89,7 @@ export function Services() {
                 ]}
                 headline={"SELF-MARKETING & NETWORKING"}
               />
+
               <ServicesComponent
                 image={"/icons-reg-06.png"}
                 content={[
