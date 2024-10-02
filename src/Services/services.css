@@ -158,6 +158,45 @@
   width: auto;
 }
 
+@media screen and (max-width: 991px){
+
+  .red{
+    background-color: rgba(255, 0, 0, 0);
+    height: 20%;
+    transform: translateY(30vh);
+    width: 20px;
+    position: absolute;
+    z-index: 6;
+  }
+  
+  .blue{
+    background-color: rgba(0, 0, 255, 0 );
+    height: 20%;
+    transform: translateY(3000vh);
+    width: 20px;
+    position: absolute;
+    z-index: 6;
+  }
+
+  .services-title-main-relfalse{
+    position: relative;
+    padding-top: 3.42vw;
+    max-width: 91.8%;
+  
+  }
+  
+  .services-title-main-reltrue{
+    position: relative;
+    padding-top: 3.42vw;
+    max-width: 91.8%;
+  
+  }
+  .services-title-main-sticky{
+    position: relative;
+    padding-top: 3.42vw;
+    max-width: 91.8%;
+  }
+}
 
 
 
