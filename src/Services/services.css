@@ -172,7 +172,7 @@
   .blue{
     background-color: rgba(0, 0, 255, 0 );
     height: 20%;
-    transform: translateY(3000vh);
+    transform: translateY(200vh);
     width: 20px;
     position: absolute;
     z-index: 6;
