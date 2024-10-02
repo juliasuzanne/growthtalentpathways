@@ -1,12 +1,13 @@
 .hero-main{
   padding: 10vw;
   padding-top: 2vw;
-  padding-bottom: 5vw;
+  padding-bottom: 0vw;
   /* border-bottom-left-radius: 5vh;
   border-bottom-right-radius: 5vh; */
   width:100vw;
   margin: auto;
   background-color: var(--blue);
+  max-height: 105vh;
 
   /* max-width: 100%; */
   /* transform: translateY(-30px); */
@@ -43,7 +44,7 @@
   display: relative;
   position: relative;
   float: right;
-  transform: translateX(12vw); 
+  transform: translate(12vw, -22vh); 
   /* right: 0px;
   position: absolute;
 */ 
@@ -83,14 +84,45 @@
 
 @media screen and (max-width: 987px){
 
+  .hero-main{
+    padding: 10vw;
+    padding-top: 2vw;
+    padding-bottom: 0vw;
+    /* border-bottom-left-radius: 5vh;
+    border-bottom-right-radius: 5vh; */
+    width:100vw;
+    margin: auto;
+    background-color: var(--blue);
+    max-height: 200vh;
+  
+    /* max-width: 100%; */
+    /* transform: translateY(-30px); */
+    
+  
+  }
 
+
+  .hero-figures{
+    width: 106%;
+    display: relative;
+    position: relative;
+    float: right;
+    transform: translate(12vw, -10vh); 
+    /* right: 0px;
+    position: absolute;
+  */ 
+    /* width: 60vw;
+    position: absolute;
+    right: -9vw;
+    top: 32vh; */
+  }
 .hero-p{
   color: var(--lime-green);
   text-align: left;
   line-height: 3.5vw;
   font-family: "Lato-Light";  
   text-align: left;
-  width: 55%;
+  width: 100%;
   font-size: 2.0vw;
   font-size-adjust: inherit;
 
@@ -116,7 +148,7 @@
     font-family: "NibPro-Light";
     font-size:calc(24px + 2.5vw);
     text-align: left;
-    width: 95%;
+    width: 100%;
     line-height: calc(38px + 4vw);
   }
 
