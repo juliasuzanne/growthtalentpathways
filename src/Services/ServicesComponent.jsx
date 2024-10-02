@@ -22,10 +22,10 @@ export function ServicesComponent(props) {
     <div className="services-div">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-sm-3 icon-container">
+          <div className="col-lg-4 col-md-3 icon-container">
             <img className="services-icon" src={props.image} />
           </div>
-          <div className="col-lg-8 col-sm-9">
+          <div className="col-lg-8 col-md-9">
             <h2 className="services-div-headline">{props.headline}</h2>
 
             <ul hidden={showContent}>

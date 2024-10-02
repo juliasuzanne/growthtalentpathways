@@ -41,13 +41,15 @@ export function ContactForm() {
   };
 
   return (
-    <div id="contact" className="email-main">
+    <div className="email-main">
       <div id="login">
         <form ref={form} onSubmit={sendEmail}>
           <div className="container">
             <div className="row">
               <div className="email-outsides">
-                <h2 className="headertitle">Ready To Get Started?</h2>
+                <h2 id="contact" className="headertitle">
+                  Ready To Get Started?
+                </h2>
                 <h2 className="connector">Let's Connect!</h2>
                 <br></br>
               </div>

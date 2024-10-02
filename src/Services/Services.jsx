@@ -3,24 +3,28 @@ export function Services() {
   return (
     <div className="services-main" id="services">
       <div className="services-overview">
-        <div className="container">
+        <div className="container ">
           <div className="row">
-            <div className="col-lg-6 col-sm-12">
-              <h1>
-                <span className="services-title1">Overview</span> <span className="services-title2"> of </span>{" "}
-                <br></br>
-                <span className="services-title3">Services</span>
-              </h1>
-              <p className="services-p">
-                <span className="services-p-bold">
-                  {" "}
-                  In addition to the technical services and coaching, I provide holistic support every step of the way.{" "}
-                </span>{" "}
-                From managing expectations and staying productive, to overcoming negativity and minimizing stress, our
-                coaching offers comprehensive guidance to help you navigate challenges and stay motivated. I‘m here to
-                ensure you maintain balance and keep moving forward with confidence.
-              </p>
+            <div className=" col-lg-6 col-sm-12">
+              <div className="services-title-main-sticky">
+                <h1>
+                  <span className="services-title1">Overview</span> <span className="services-title2"> of </span>{" "}
+                  <br></br>
+                  <span className="services-title3">Services</span>
+                </h1>
+                <p className="services-p">
+                  <span className="services-p-bold">
+                    {" "}
+                    In addition to the technical services and coaching, I provide holistic support every step of the
+                    way.{" "}
+                  </span>{" "}
+                  From managing expectations and staying productive, to overcoming negativity and minimizing stress, our
+                  coaching offers comprehensive guidance to help you navigate challenges and stay motivated. I‘m here to
+                  ensure you maintain balance and keep moving forward with confidence.
+                </p>
+              </div>
             </div>
+
             <img className="balance" src="/balance.png" />
 
             <div className="col-lg-6 col-sm-12">
