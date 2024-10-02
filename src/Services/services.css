@@ -27,14 +27,14 @@
 .services-title-main-relfalse{
   position: relative;
   padding-top: 3.42vw;
-  max-width: 91.8%;
+  max-width: 40vw;
 
 }
 
 .services-title-main-reltrue{
   position: relative;
-  padding-top: 28.42vw;
-  max-width: 91.8%;
+  padding-top: 21.42vw;
+  max-width: 40vw;
 
 }
 .services-title-main-sticky{

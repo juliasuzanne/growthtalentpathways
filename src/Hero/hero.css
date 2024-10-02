@@ -39,10 +39,14 @@
 
 
 .hero-figures{
-  width: 55%;
-  right: 0px;
+  width: 170%;
+  display: relative;
+  position: relative;
+  float: right;
+  transform: translateX(12vw); 
+  /* right: 0px;
   position: absolute;
-  transform: translateY(-20vh);
+*/ 
   /* width: 60vw;
   position: absolute;
   right: -9vw;
@@ -117,16 +121,7 @@
   }
 
 
-.hero-figures{
-  width: 65%;
-  right: 0px;
-  position: absolute;
-  transform: translateY(-40vh);
-  /* width: 60vw;
-  position: absolute;
-  right: -9vw;
-  top: 32vh; */
-}
+
 }
 
 @media screen and (max-width: 787px){
@@ -167,16 +162,7 @@
     line-height: calc(38px + 4vw);
   }
 
-  .hero-figures{
-    width: 65%;
-    right: 0px;
-    position: absolute;
-    transform: translate(-5vw, -20vh);
-    /* width: 60vw;
-    position: absolute;
-    right: -9vw;
-    top: 32vh; */
-  }
+
 }
 
 @media screen and (max-width: 387px){
@@ -203,16 +189,7 @@
     line-height: calc(38px + 4vw);
   }
 
-  .hero-figures{
-    width: 65%;
-    right: 0px;
-    position: absolute;
-    transform: translate(0vw, -20vh);
-    /* width: 60vw;
-    position: absolute;
-    right: -9vw;
-    top: 32vh; */
-  }
+
 }
 
 
