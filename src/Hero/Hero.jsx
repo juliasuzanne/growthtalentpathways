@@ -28,7 +28,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="col-lg-6 col-sm-12">
-            <img className="hero-figures" src="/figure-art3.png" />
+            <img className="hero-figures" src="/figure-art-crop.png" />
           </div>
         </div>
       </div>

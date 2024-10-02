@@ -1,12 +1,26 @@
 import { ServicesComponent } from "./ServicesComponent";
+import { ObserverComponent } from "../ObserverComponent";
+import { useState } from "react";
+
 export function Services() {
+  const [startAnim, setStartAnim] = useState(false);
+
+  const startAnimating = () => {
+    console.log("startFixedHeadline");
+    setStartAnim(true);
+  };
+
+  const stopAnimating = () => {
+    console.log("startFixedHeadline");
+    setStartAnim(false);
+  };
   return (
     <div className="services-main" id="services">
       <div className="services-overview">
         <div className="container ">
           <div className="row">
             <div className=" col-lg-6 col-sm-12">
-              <div className="services-title-main-sticky">
+              <div className={`${startAnim ? "services-title-main-sticky" : "services-title-main-rel"}`}>
                 <h1>
                   <span className="services-title1">Overview</span> <span className="services-title2"> of </span>{" "}
                   <br></br>
@@ -57,6 +71,7 @@ export function Services() {
               />
             </div>
           </div>
+
           <br />
           <br />
           <br />

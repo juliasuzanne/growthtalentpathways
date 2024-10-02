@@ -10,13 +10,15 @@
 
 .services-title-main-rel{
   position: relative;
-  top: 40px; left: 40px;
+  padding-top: 3.42vw;
+  max-width: 91.8%;
+
 }
 .services-title-main-sticky{
   position: fixed;
   max-width: 35%;
-top: 20vh;
-z-index: 5;
+  top: 20vh;
+  z-index: 5;
 }
 
 .services-div{

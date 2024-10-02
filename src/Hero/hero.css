@@ -1,7 +1,7 @@
 .hero-main{
   padding: 10vw;
   padding-top: 2vw;
-  padding-bottom: 0vw;
+  padding-bottom: 5vw;
   /* border-bottom-left-radius: 5vh;
   border-bottom-right-radius: 5vh; */
   width:100vw;
@@ -39,9 +39,10 @@
 
 
 .hero-figures{
-  width: 170%;
-  transform: translate(-13vw, -20vh);
-
+  width: 55%;
+  right: 0px;
+  position: absolute;
+  transform: translateY(-20vh);
   /* width: 60vw;
   position: absolute;
   right: -9vw;
@@ -82,11 +83,11 @@
 .hero-p{
   color: var(--lime-green);
   text-align: left;
-  line-height: 4.5vw;
+  line-height: 3.5vw;
   font-family: "Lato-Light";  
-  text-align: justify;
-  width: 95%;
-  font-size: 3.0vw;
+  text-align: left;
+  width: 55%;
+  font-size: 2.0vw;
   font-size-adjust: inherit;
 
 
@@ -117,9 +118,10 @@
 
 
 .hero-figures{
-  width: 120%;
-  transform: translate(-6vw, -3vh);
-
+  width: 65%;
+  right: 0px;
+  position: absolute;
+  transform: translateY(-40vh);
   /* width: 60vw;
   position: absolute;
   right: -9vw;
@@ -128,6 +130,20 @@
 }
 
 @media screen and (max-width: 787px){
+
+  .hero-p{
+    color: var(--lime-green);
+    text-align: left;
+    line-height: 5.5vw;
+    font-family: "Lato-Light";  
+    text-align: left;
+    width: 90%;
+    font-size: 3.0vw;
+    font-size-adjust: inherit;
+  
+  
+  }
+
 
   .hero-logo{
     justify-content: right;
@@ -151,16 +167,16 @@
     line-height: calc(38px + 4vw);
   }
 
-
-.hero-figures{
-  width: 120%;
-  transform: translate(-6vw, -3vh);
-
-  /* width: 60vw;
-  position: absolute;
-  right: -9vw;
-  top: 32vh; */
-}
+  .hero-figures{
+    width: 65%;
+    right: 0px;
+    position: absolute;
+    transform: translate(-5vw, -20vh);
+    /* width: 60vw;
+    position: absolute;
+    right: -9vw;
+    top: 32vh; */
+  }
 }
 
 @media screen and (max-width: 387px){
@@ -181,22 +197,22 @@
     padding-top: 12vh;
     padding-bottom: 3vw;
     font-family: "NibPro-Light";
-    font-size:calc(25px + 2.5vw);
+    font-size:calc(23px + 2.5vw);
     text-align: left;
     width: 95%;
     line-height: calc(38px + 4vw);
   }
 
-
-.hero-figures{
-  width: 120%;
-  transform: translate(-6vw, -3vh);
-
-  /* width: 60vw;
-  position: absolute;
-  right: -9vw;
-  top: 32vh; */
-}
+  .hero-figures{
+    width: 65%;
+    right: 0px;
+    position: absolute;
+    transform: translate(0vw, -20vh);
+    /* width: 60vw;
+    position: absolute;
+    right: -9vw;
+    top: 32vh; */
+  }
 }
 
 
