@@ -107,7 +107,7 @@
     display: relative;
     position: relative;
     float: right;
-    transform: translate(12vw, -10vh); 
+    transform: translate(12vw, 0vh); 
     /* right: 0px;
     position: absolute;
   */ 
