@@ -79,14 +79,14 @@
   }
   .ws_portraitB{
     display: flex;
-    transform: translate(-15vw, 0vw);
+    transform: translate(-9vw, 10vw);
     height: auto;
     padding-left: 0;
     position: relative;
     margin: 0;
     padding: 0;
     z-index: 0;
-    max-width:50vw;
+    max-width:80vw;
     width: auto;
     height: auto;
     z-index: 2;
