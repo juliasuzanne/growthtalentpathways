@@ -95,13 +95,19 @@ input:focus {
 .email-main{
   z-index: -1;
   background-color: var(--blue);
-
+  min-height: 105vh;
 }
 
   
 
 
-@media screen and (max-width: 968px){
+@media screen and (max-width: 768px){
+  .email-main{
+    z-index: -1;
+    background-color: var(--blue);
+    min-height: 95vh;
+  }
+  
   .headertitle{
     font-family: "Lato";
     color: var(--lime-green);

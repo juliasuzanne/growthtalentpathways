@@ -27,7 +27,7 @@
     z-index: 5;
     padding-top: 2vh;
     padding-left: 15vw;
-    line-height: 5vh;
+    line-height: 3vh;
     font-size: 2vh;
     width: 92%;
     float: bottom;
@@ -79,7 +79,7 @@
   }
   .ws_portraitB{
     display: flex;
-    transform: translate(-9vw, 10vw);
+    transform: translate(-9vw, 0vw);
     height: auto;
     padding-left: 0;
     position: relative;
@@ -98,8 +98,8 @@
     z-index: 5;
     padding-top: 0vh;
     padding-left: 0vw;
-    line-height: 5vh;
-    font-size: 2vh;
+    line-height: 3vh;
+    font-size: 1.1em;
     width: 100%;
     float: bottom;
     text-align: right;
@@ -176,18 +176,21 @@
     z-index: 2;
 
   }
+
+  .ws-buttons{
+    text-align: right;
+  }
   
   .ws-textmain{
     transform: translateY(15vw);
-
     z-index: 5;
     padding-top: 0vh;
     padding-left: 0vw;
-    line-height: 5vh;
+    line-height: 4vh;
     font-size: 2vh;
     width: 100%;
     float: bottom;
-    text-align: right;
+    text-align: center;
   }
 
   .ws-title1{
@@ -218,17 +221,17 @@
 
   .ws-titlemain{
     line-height: 14vw;
-    padding-right: 6vw;
+    padding-right: 0vw;
   }
   
 
   .ws-p{
     padding-top: 2vh;
-    text-align: justify;
-    line-height: 5vw;
+    text-align: left;
+    line-height: 6vw;
     width: 85%;
     margin: auto;
-    font-size: 3.0vw;
+    font-size: 4.0vw;
   
   }
   
