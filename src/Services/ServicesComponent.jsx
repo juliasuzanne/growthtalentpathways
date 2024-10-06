@@ -3,7 +3,7 @@ import "./services.css";
 
 export function ServicesComponent(props) {
   const [showContent, setShowContent] = useState(true);
-  const [buttonText, setButtonText] = useState("More");
+  const [buttonText, setButtonText] = useState("MORE v");
 
   function handleClickMore() {
     if (showContent) {
@@ -12,9 +12,9 @@ export function ServicesComponent(props) {
       setShowContent(true);
     }
     if (showContent) {
-      setButtonText("Less");
+      setButtonText("LESS ^");
     } else {
-      setButtonText("More");
+      setButtonText("MORE v");
     }
   }
 
@@ -33,7 +33,7 @@ export function ServicesComponent(props) {
                 return <li>{el}</li>;
               })}
             </ul>
-            <p className="more-button" onClick={() => handleClickMore()}>
+            <p className={` ${showContent ? "more-button" : "more-button-left"}`} onClick={() => handleClickMore()}>
               {buttonText}
             </p>
           </div>

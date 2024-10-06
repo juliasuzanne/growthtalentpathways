@@ -67,6 +67,21 @@ li::marker {
   line-height: 2.25vw;
 }
 
+.more-button-left{
+  color: var(--lime-green);
+  border-radius: 12px;
+  border-style: none;
+  background-color: rgba(256, 256, 256, 0%);
+  margin: 10px;
+  color: var(--lime-green);
+  margin-left: 0;
+  font-family: "Lato";
+  letter-spacing: 2px;
+  text-align: left;
+  font-size: 3.75vw;
+  
+}
+
 .services-div-headline{
   font-size: 1.7em;
   letter-spacing: .12vw;
@@ -82,7 +97,6 @@ li::marker {
   border-style: none;
   background-color: rgba(256, 256, 256, 0%);
   margin: 10px;
-  text-transform: uppercase;
   color: var(--lime-green);
   margin-left: 0;
   font-family: "Lato";
@@ -273,13 +287,12 @@ li::marker {
   
   }
   
-  .more-button{
+  .more-button, .more-button-left{
     color: var(--lime-green);
     border-radius: 12px;
     border-style: none;
     background-color: rgba(256, 256, 256, 0%);
     margin: 10px;
-    text-transform: uppercase;
     color: var(--lime-green);
     margin-left: 0;
     font-family: "Lato";
@@ -290,6 +303,8 @@ li::marker {
 
     
   }
+
+ 
 
 }
 
@@ -310,6 +325,23 @@ li::marker {
     z-index: 5;
     max-width: 80%;
   }
+
+
+.more-button-left{
+  color: var(--lime-green);
+  border-radius: 12px;
+  border-style: none;
+  background-color: rgba(256, 256, 256, 0%);
+  margin: 10px;
+  color: var(--lime-green);
+  margin-left: 0;
+  font-family: "Lato";
+  letter-spacing: 2px;
+  text-align: left;
+  font-size: 3.75vw;
+  margin-left: 20px;
+  
+}
 
   .services-title1{
     z-index: 5;
@@ -408,15 +440,12 @@ li::marker {
     border-style: none;
     background-color: rgba(256, 256, 256, 0%);
     margin: 10px;
-    text-transform: uppercase;
     color: var(--lime-green);
     margin-left: 0;
     font-family: "Lato";
     letter-spacing: 2px;
     text-align: left;
-    font-size: 2.75vw;
-
-
+    font-size: 3.75vw;
     
   }
 
@@ -536,7 +565,6 @@ li::marker {
     border-style: none;
     background-color: rgba(256, 256, 256, 0%);
     margin: 10px;
-    text-transform: uppercase;
     color: var(--lime-green);
     margin-left: 0;
     font-family: "Lato";
