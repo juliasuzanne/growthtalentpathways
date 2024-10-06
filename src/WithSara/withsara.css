@@ -259,6 +259,9 @@
 .ws-main{
   padding-top: 0vh;
   background-color: var(--lime-green);
+  border-top-left-radius: 300px;
+  border-top-right-radius: 0px;
+
 
 }
 
