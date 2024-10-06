@@ -51,7 +51,7 @@ li::marker {
 .services-div{
   position: relative;
   z-index: 5;
-  font-size: 13px;
+  font-size: 16px;
   max-width: 100%;
   background-color: var(--blue);
   margin-bottom: 20px;
@@ -78,7 +78,7 @@ li::marker {
   font-family: "Lato";
   letter-spacing: 2px;
   text-align: left;
-  font-size: 3.75vw;
+  font-size: 1vw;
   
 }
 
@@ -298,7 +298,7 @@ li::marker {
     font-family: "Lato";
     letter-spacing: 2px;
     text-align: left;
-    font-size: 2.45vw;
+    font-size: 1.45vw;
 
 
     
@@ -338,7 +338,7 @@ li::marker {
   font-family: "Lato";
   letter-spacing: 2px;
   text-align: left;
-  font-size: 3.75vw;
+  font-size: .8em;
   margin-left: 20px;
   
 }
@@ -385,7 +385,7 @@ li::marker {
 
   .services-p-bold{
     z-index: 5;
-    font-family: "Lato-SemiBold";
+    font-family: "Lato-BoldItalic";
   }
 
   .balance{
@@ -430,6 +430,8 @@ li::marker {
     letter-spacing: .12vw;
     font-family: "Lato";
     padding: 0;
+
+    padding-top: 20px;
     text-align: left;
   
   }
@@ -445,7 +447,7 @@ li::marker {
     font-family: "Lato";
     letter-spacing: 2px;
     text-align: left;
-    font-size: 3.75vw;
+    font-size: .8em;
     
   }
 
@@ -474,7 +476,7 @@ li::marker {
     position: relative;
     font-family: "Lato-Thin";
     text-transform: uppercase;
-    font-size: 8.4vw;
+    font-size: 10.4vw;
   }
   
   .services-title2{
@@ -482,29 +484,29 @@ li::marker {
     position: relative;
   
     font-family: "NibPro-BoldItalic";
-    font-size: 3.8vw;
+    font-size: 5.8vw;
   
   }
   
   .services-title3{
     z-index: 5;
     position: relative;
-  
     font-family: "NibPro-Bold";
     text-transform: uppercase;
-    font-size: 13vw;
+    font-size: 15vw;
   
   }
 
   .services-p{
     z-index: 50;
     position: relative;
-    font-size: .8em;
+    font-size: 1em;
     text-justify: inter-word;
     font-family: "Lato";
     margin-right: 0vw;
     max-width: 100%;
     padding-bottom: 1vh;
+    line-height: 1.4em;
   
   }
 

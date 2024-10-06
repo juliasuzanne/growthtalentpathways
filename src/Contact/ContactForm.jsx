@@ -88,7 +88,7 @@ export function ContactForm() {
           </div>
         </form>
       </div>
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }

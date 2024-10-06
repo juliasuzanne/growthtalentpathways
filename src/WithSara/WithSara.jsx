@@ -24,6 +24,7 @@ export default function WithSara() {
                 <a href="https://www.linkedin.com/in/sarakontalonis/" target="_blank">
                   <button className="black">LinkedIn</button>
                 </a>
+                <br className="break" />
                 <a href="/SJKResumeGTS.pdf" download>
                   <button className="blackoutline">CV</button>{" "}
                 </a>

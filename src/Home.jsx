@@ -2,7 +2,9 @@ import { Services } from "./Services/Services";
 import Hero from "./Hero/Hero";
 import WithSara from "./WithSara/WithSara";
 import { ContactForm } from "./Contact/ContactForm";
+import { Footer } from "./Footer";
 import Spacer from "./Spacer";
+
 export function Home() {
   return (
     <div className="main-div">
