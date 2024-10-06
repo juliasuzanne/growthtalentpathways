@@ -15,6 +15,59 @@
 
 }
 
+
+.white{
+  border-radius: 20px;
+  border-style: none;
+  background-color: rgba(256, 256, 256, 65%);
+  padding: 20px;
+  font-family: "Lato-Bold";
+  margin: 30px;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-left: 0;
+
+
+}
+
+.whiteoutline{
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: 2.5px solid rgba(256, 256, 256, 50%);
+  color: rgba(255, 255, 255, 0.9);
+  padding: 17.5px;
+  background-color: transparent;
+  margin-left: 0;
+
+
+}
+
+.white:hover{
+  border-radius: 20px;
+  border-style: none;
+  background-color: rgba(256, 256, 256, 30%);
+  padding: 20px;
+  margin: 30px;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 0;
+
+
+}
+
+.whiteoutline:hover{
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: 2.5px solid rgba(256, 256, 256, 10%);
+  background-color: rgba(256, 256, 256, 2%);
+
+  color: white;
+  padding: 17.5px;
+  margin-left: 0;
+
+
+}
+
 .hero-bg{
 
 
@@ -29,19 +82,24 @@
 .hero-logo{
   justify-content: right;
   height: 4.5vw;
-  position: absolute;
-  right: 2vw;
+  position: relative;
+  right: -7vw;
   top: 3vh;
+  float: right;
   font-size: 50vmin;
   opacity: 80%;
 
 
 }
 
+.div-SM{
+  display: none;
+}
 
-.hero-figures{
+
+.hero-figuresLG{
   width: 170%;
-  display: relative;
+  display: flex;
   position: relative;
   float: right;
   transform: translate(12vw, -22vh); 
@@ -52,6 +110,14 @@
   position: absolute;
   right: -9vw;
   top: 32vh; */
+}
+
+.hero-figuresSM{
+  width: 0%;
+  display: none;
+  position: relative;
+  float: right;
+  transform: translate(12vw, 0vh); 
 }
 
 .hero-text{
@@ -76,13 +142,34 @@
   width: 95%;
   font-size: 1.5vw;
   font-size-adjust: inherit;
+  padding-bottom: 0vh;
 
 
+}
+
+.hero-button-group{
+  padding-top: 30px;
+  text-align: left;
+  margin-left: 0;
+  display: none;
+}
+
+
+
+.hero-button-groupSM{
+  padding-top: 30px;
+  text-align: left;
+  margin-left: 0;
+  display: none;
 }
 
 
 
 @media screen and (max-width: 987px){
+
+  .div-SM{
+    display: inline;
+  }
 
   .hero-main{
     padding: 10vw;
@@ -101,10 +188,18 @@
   
   }
 
+  .hero-figuresSM{
+    width: 140%;
+    display: flex;
+    position: relative;
+    float: right;
+    transform: translate(12vw, -5vh); 
+  }
 
-  .hero-figures{
-    width: 106%;
-    display: relative;
+
+  .hero-figuresLG{
+    width: 140%;
+    display: inline;
     position: relative;
     float: right;
     transform: translate(12vw, 0vh); 
@@ -118,16 +213,198 @@
   }
 .hero-p{
   color: var(--lime-green);
-  text-align: left;
-  line-height: 3.5vw;
+  line-height: 4.8vw;
   font-family: "Lato-Light";  
-  text-align: left;
+  text-align: justify;
   width: 100%;
-  font-size: 2.0vw;
+  font-size: 3.3vw;
   font-size-adjust: inherit;
+  padding-bottom: 0vh;
+  padding-top: 2vw;
+  transform: translate(0, 0vh);
+}
+
+
+  .hero-text{
+    color: white;
+    padding-top: 12vh;
+    padding-bottom: 3vw;
+    font-family: "NibPro-Regular";
+    font-size:calc(44px + 2.5vw);
+    text-align: left;
+    width: 100%;
+    line-height: calc(55px + 4vw);
+  }
+
+  .white{
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgba(256, 256, 256, 65%);
+    padding: 20px;
+    font-family: "Lato-Bold";
+    margin: 30px;
+    text-transform: uppercase;
+    color: var(--blue);
+    margin-left: 0;
+  
+  
+  }
+  
+  .whiteoutline{
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 2.5px solid rgba(256, 256, 256, 50%);
+    color: rgba(255, 255, 255, 0.9);
+    padding: 17.5px;
+    background-color: transparent;
+    margin-left: 0;
+  
+  
+  }
+  
+  .white:hover{
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgba(256, 256, 256, 30%);
+    padding: 20px;
+    margin: 30px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 0;
+  
+  
+  }
+  
+  .whiteoutline:hover{
+    text-transform: uppercase;
+    border-radius: 12px;
+    border: 1.5px solid rgba(256, 256, 256, 10%);
+    background-color: rgba(256, 256, 256, 2%);
+  
+    color: white;
+    padding: 10.5px;
+    margin-left: 0;
+  
+  
+  }
+  
+  .hero-button-group{
+    padding-top: 5px;
+    text-align: left;
+    font-size: 1.5em;
+    display:block;
+  }
+
+
+.hero-button-groupSM{
+  padding-top: 5px;
+  text-align: left;
+  font-size: 1.5em;
+  display:block;
+}
+
+  
+
+}
+
+
+@media screen and (max-width: 787px){
+
+  .hero-button-groupSM{
+    padding-top: 4vh;
+    text-align: center;
+    font-size: 1.2em;
+    display:block;
+  }
+
+.white{
+  border-radius: 15px;
+  border-style: none;
+  background-color: rgba(256, 256, 256, 60%);
+  padding: 13.3px;
+  margin: 0px;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-right: 20px;
 
 
 }
+
+.whiteoutline{
+  text-transform: uppercase;
+  border-radius: 15px;
+  border: 1.5px solid rgba(256, 256, 256, 50%);
+  color: rgba(255, 255, 255, 0.87);
+  padding: 13.5px;
+  background-color: transparent;
+  margin-left: 0px;
+  margin-right: 20px;
+
+
+
+}
+
+.white:hover{
+  border-radius: 12px;
+  border-style: none;
+  background-color: rgba(256, 256, 256, 10%);
+  padding: 10px;
+  margin: 10px;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 0;
+  margin-right: 20px;
+
+
+
+}
+
+.whiteoutline:hover{
+  text-transform: uppercase;
+  border-radius: 12px;
+  border: 1.5px solid rgba(256, 256, 256, 10%);
+  background-color: rgba(256, 256, 256, 2%);
+
+  color: white;
+  padding: 8.5px;
+  margin-left: 0;
+  margin-right: 20px;
+
+
+
+}
+
+.hero-button-groupLG{
+    padding-top: 2vh;
+    text-align: center;
+    font-size: 1.0em;
+    display:block;
+}
+
+
+
+
+
+  .hero-p{
+    color: var(--lime-green);
+    line-height: 5.5vw;
+    font-family: "Lato-Light";  
+    text-align: justify;
+    margin-left: 3%;
+    width: 90%;
+    font-size: 3.8vw;
+    font-size-adjust: inherit;
+    padding-bottom: 2vw;
+  
+  }
+
+  .hero-figuresSM{
+    width: 170%;
+    display: flex;
+    position: relative;
+    float: right;
+    transform: translate(12vw, 0vh); 
+  }
 
 
   .hero-logo{
@@ -143,34 +420,91 @@
 
   .hero-text{
     color: white;
-    padding-top: 12vh;
+    padding-top: 16vh;
     padding-bottom: 3vw;
-    font-family: "NibPro-Light";
-    font-size:calc(24px + 2.5vw);
-    text-align: left;
+    font-family: "NibPro-Regular";
+    font-size:calc(35px + 2.7vw);
+    text-align: center;
     width: 100%;
-    line-height: calc(38px + 4vw);
+    line-height: calc(40px + 4.0vw);
   }
-
 
 
 }
 
-@media screen and (max-width: 787px){
+@media screen and (max-width: 383px){
+  .hero-button-groupSM{
+    padding-top: 0cqh;
+    text-align: center;
+    font-size: 1.2em;
+    display:block;
+  }
+
+  .white{
+    border-radius: 15px;
+    border-style: none;
+    background-color: rgba(256, 256, 256, 60%);
+    padding: 13.3px;
+    margin: 0px;
+    text-transform: uppercase;
+    color: var(--blue);
+    margin: 10px;
+    margin-bottom: 20px;
+  
+  
+  }
+  
+  .whiteoutline{
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: 1.5px solid rgba(256, 256, 256, 50%);
+    color: rgba(255, 255, 255, 0.87);
+    padding: 13.5px;
+    background-color: transparent;
+    margin-left: 0px;
+  
+  
+  }
+  
+  .white:hover{
+    border-radius: 12px;
+    border-style: none;
+    background-color: rgba(256, 256, 256, 10%);
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 0;
+  
+  
+  }
+  
+  .whiteoutline:hover{
+    text-transform: uppercase;
+    border-radius: 12px;
+    border: 1.5px solid rgba(256, 256, 256, 10%);
+    background-color: rgba(256, 256, 256, 2%);
+  
+    color: white;
+    padding: 8.5px;
+    margin-left: 0;
+  
+  
+  }
 
   .hero-p{
     color: var(--lime-green);
     text-align: left;
-    line-height: 5.5vw;
+    line-height: 7.0vw;
     font-family: "Lato-Light";  
-    text-align: left;
+    text-align: justify;
+    margin-left: 3%;
     width: 90%;
-    font-size: 3.0vw;
+    font-size: 4.8vw;
     font-size-adjust: inherit;
-  
+    padding-top: 0;
   
   }
-
 
   .hero-logo{
     justify-content: right;
@@ -185,41 +519,22 @@
 
   .hero-text{
     color: white;
-    padding-top: 12vh;
-    padding-bottom: 3vw;
-    font-family: "NibPro-Light";
-    font-size:calc(32px + 2.5vw);
-    text-align: left;
-    width: 100%;
-    line-height: calc(38px + 4vw);
-  }
-
-
-}
-
-@media screen and (max-width: 387px){
-
-  .hero-logo{
-    justify-content: right;
-    height: 5.5vh;
-    position: absolute;
-    right: 2vw;
-    top: 3vh;
-    font-size: 50vmin;
-    opacity: 80%;
-  
-  }
-
-  .hero-text{
-    color: white;
-    padding-top: 12vh;
-    padding-bottom: 3vw;
-    font-family: "NibPro-Light";
-    font-size:calc(23px + 2.5vw);
-    text-align: left;
+    padding-top: 17vh;
+    padding-bottom: 4vh;
+    font-family: "NibPro-Regular";
+    font-size:calc(30px + 2.8vw);
+    text-align: center;
     width: 95%;
-    line-height: calc(38px + 4vw);
+    line-height: calc(45px + 4vw);
   }
+
+  .hero-button-group{
+    padding-top: 0cqh;
+    text-align: center;
+    font-size: 1.2em;
+    display:block;
+  }
+
 
 
 }
@@ -236,63 +551,4 @@
 .bold-italic{
   font-family: "NibPro-BoldItalic";
 }
-
-
-.white{
-  border-radius: 12px;
-  border-style: none;
-  background-color: rgba(256, 256, 256, 20%);
-  padding: 10px;
-  margin: 10px;
-  text-transform: uppercase;
-  color: white;
-  margin-left: 0;
-
-
-}
-
-.whiteoutline{
-  text-transform: uppercase;
-  border-radius: 12px;
-  border: 1.5px solid rgba(256, 256, 256, 50%);
-  color: white;
-  padding: 8.5px;
-  background-color: transparent;
-  margin-left: 0;
-
-
-}
-
-.white:hover{
-  border-radius: 12px;
-  border-style: none;
-  background-color: rgba(256, 256, 256, 10%);
-  padding: 10px;
-  margin: 10px;
-  text-transform: uppercase;
-  color: white;
-  margin-left: 0;
-
-
-}
-
-.whiteoutline:hover{
-  text-transform: uppercase;
-  border-radius: 12px;
-  border: 1.5px solid rgba(256, 256, 256, 10%);
-  background-color: rgba(256, 256, 256, 2%);
-
-  color: white;
-  padding: 8.5px;
-  margin-left: 0;
-
-
-}
-
-.hero-button-group{
-  padding-top: 30px;
-  text-align: left;
-  margin-left: 0;
-}
-
 

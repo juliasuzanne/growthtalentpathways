@@ -263,7 +263,7 @@ html {
 
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1000px){
   #footer{
     background-color: var(--blue);
     padding-bottom: 1px;
