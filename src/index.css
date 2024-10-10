@@ -25,16 +25,13 @@ canvas{
 #button-gen-solid{
   border-radius: 12px;
   padding: 12px;
-  margin: 12px;
   text-transform: uppercase;
-    font-family: "Lato-SemiBold";
-
+  font-family: "Lato-SemiBold";
   
 }
 #button-gen-solid:hover{
 border-radius: 12px;
 padding: 12px;
-margin: 12px;
 text-transform: uppercase;
 
 }
@@ -42,14 +39,12 @@ text-transform: uppercase;
 #button-gen{
   border-radius: 12px;
   padding: 10.5px;
-  margin: 12px;
   background-color: transparent;
   
 }
 #button-gen:hover{
   border-radius: 12px;
   padding: 10.5px;
-  margin: 12px;
 }
 
 
@@ -367,4 +362,19 @@ html {
   
   }
   
+}
+
+
+
+@media screen and (max-width: 987px){
+}
+
+
+@media screen and (max-width: 767px){
+}
+
+@media screen and (max-width: 560px){
+}
+
+@media screen and (max-width: 383px){
 }

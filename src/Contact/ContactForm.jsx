@@ -18,8 +18,8 @@ export function ContactForm() {
     setErrors([]);
 
     emailjs
-      .sendForm("service_lm9j9s3", "template_b0xo5gu", form.current, {
-        publicKey: "8K6quPX9rCuFe991S",
+      .sendForm("service_8n7cbdl", "template_q4tdypn", form.current, {
+        publicKey: "yllTUPIWKi2ZgJtsa",
       })
       .then(
         () => {
@@ -35,7 +35,7 @@ export function ContactForm() {
           setSuccessMessage([]);
           setErrorShow(false);
           setSuccessMessageShow(true);
-          setErrors(["Please fill out all fields"]);
+          setErrors(["Error, please try again."]);
         }
       );
   };
@@ -63,7 +63,7 @@ export function ContactForm() {
                 <input name="last_name" className="form-control" type="string" placeholder="Last Name" />
               </div>
               <div className="col-lg-4 col-sm-12">
-                <input name="email" className="form-control" type="email" placeholder="E-mail" required />
+                <input name="user_email" className="form-control" type="email" placeholder="E-mail" required />
               </div>
             </div>
             <div className="row">

@@ -174,6 +174,12 @@ input:focus {
   
 }
 
+.errors{
+  color: red;
+  font-family: "Lato-Italic";
+  
+}
+
 /* .success li::marker{
   color: rgba(189, 23, 23, 0.793);
 } */
