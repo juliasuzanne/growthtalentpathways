@@ -157,6 +157,10 @@
 
 }
 
+.hero-p-bold{
+  font-family: "Lato-SemiBold";  
+}
+
 .hero-button-group{
   padding-top: 30px;
   text-align: left;
@@ -242,6 +246,10 @@
   padding-bottom: 0vh;
   padding-top: 2vw;
   transform: translate(0, 0vh);
+}
+
+.hero-p-bold{
+  font-family: "Lato-SemiBold";  
 }
 
 
@@ -421,6 +429,11 @@
   
   }
 
+
+.hero-p-bold{
+  font-family: "Lato-SemiBold";  
+}
+
   .hero-figuresSM{
     width: 170%;
     display: flex;
@@ -550,6 +563,10 @@
     padding-top: 0;
   
   }
+
+.hero-p-bold{
+  font-family: "Lato-SemiBold";  
+}
 
   .hero-logo{
     justify-content: right;
