@@ -96,6 +96,17 @@
   display: none;
 }
 
+.hero-figures{
+  height: 100vh;
+  z-index: 2;
+  /* pointer-events: none; */
+  width: 170%;
+  display: flex;
+  position: relative;
+  float: right;
+  transform: translate(12vw, -22vh); 
+}
+
 
 .hero-figuresLG{
   width: 170%;
@@ -133,6 +144,7 @@
 }
 
 
+
 .hero-p{
   color: var(--lime-green);
   text-align: left;
@@ -162,7 +174,6 @@
   margin-left: 0;
   display: none;
 }
-
 
 
 @media screen and (max-width: 987px){
@@ -196,6 +207,17 @@
     transform: translate(12vw, -5vh); 
   }
 
+  .hero-figures{
+    height: auto;
+    z-index: 2;
+    pointer-events: none;
+    width: 140%;
+    display: inline;
+    position: relative;
+    float: right;
+    transform: translate(12vw, 0vh); 
+  }
+  
 
   .hero-figuresLG{
     width: 140%;
@@ -307,6 +329,9 @@
 
 }
 
+@media screen and (max-width: 908px){
+}
+
 
 @media screen and (max-width: 767px){
 
@@ -406,6 +431,17 @@
     transform: translate(12vw, 0vh); 
   }
 
+  .hero-figures{
+    height: 100vh;
+    z-index: 2;
+    pointer-events: none;
+    width: 170%;
+    display: flex;
+    position: relative;
+    float: right;
+    transform: translate(12vw, 0vh); 
+  }
+
 
   .hero-logo{
     justify-content: right;
@@ -433,6 +469,11 @@
 }
 
 @media screen and (max-width: 383px){
+
+  /* .riveanim{
+    height: 40vh;
+  } */
+
   .hero-button-groupSM{
     padding-top: 0cqh;
     text-align: center;
@@ -491,6 +532,18 @@
   
   
   }
+
+  .hero-figures{
+    height: 50vh;
+    z-index: 2;
+    pointer-events:none;
+    width: 170%;
+    display: flex;
+    position: relative;
+    float: right;
+    transform: translate(12vw, 0vh); 
+  }
+
 
   .hero-p{
     color: var(--lime-green);

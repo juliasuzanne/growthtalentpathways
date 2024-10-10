@@ -518,10 +518,9 @@ li::marker {
   .balance{
     z-index: 0;
     position: absolute;
-    padding-left:35vw;
-    height: 30vh;
-    width: 30vh;
+    padding-left:15vw;
     opacity: 70%;
+    height: 40vh;
     width: auto;
   }
 

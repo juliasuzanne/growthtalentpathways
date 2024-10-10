@@ -18,6 +18,11 @@
   ;
 }
 
+canvas{
+  height: 100vh;
+}
+
+
 button{
 letter-spacing: 2px;
 font-family: "Lato";

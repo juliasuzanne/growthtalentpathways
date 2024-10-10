@@ -1,4 +1,6 @@
 import "./hero.css";
+import { RiveAnimation } from "./RiveAnimation";
+import { ObserverComponent } from "../ObserverComponent";
 
 export default function Hero() {
   return (
@@ -39,8 +41,9 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="col-lg-6 col-sm-12">
-            <img className="hero-figuresLG" src="/figure-art-crop.png" />
+          <div className="riveanim col-lg-6 col-sm-12">
+            {/* <img className="hero-figuresLG" src="/figure-art-crop.png" /> */}
+            <RiveAnimation></RiveAnimation>
           </div>
         </div>
       </div>
