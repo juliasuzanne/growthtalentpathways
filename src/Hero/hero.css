@@ -189,7 +189,7 @@
     width:100vw;
     margin: auto;
     background-color: var(--blue);
-    max-height: 200vh;
+    max-height: calc(150vw + 150vh);
   
     /* max-width: 100%; */
     /* transform: translateY(-30px); */
