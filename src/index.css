@@ -22,6 +22,80 @@ canvas{
   height: 100vh;
 }
 
+#button-gen-solid{
+  border-radius: 12px;
+  padding: 12px;
+  margin: 12px;
+  text-transform: uppercase;
+    font-family: "Lato-SemiBold";
+
+  
+}
+#button-gen-solid:hover{
+border-radius: 12px;
+padding: 12px;
+margin: 12px;
+text-transform: uppercase;
+
+}
+
+#button-gen{
+  border-radius: 12px;
+  padding: 10.5px;
+  margin: 12px;
+  background-color: transparent;
+  
+}
+#button-gen:hover{
+  border-radius: 12px;
+  padding: 10.5px;
+  margin: 12px;
+}
+
+
+
+/* 
+.black{
+  border-radius: 12px;
+  border-style: none;
+  background-color: rgba(0, 0, 0, 20%);
+  padding: 12px;
+  margin: 12px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.blackoutline{
+  border-radius: 12px;
+  border: 1.5px solid rgba(0, 0, 0, 50%);
+  padding: 10.5px;
+  margin: 12px;
+  color: black;
+  background-color: transparent;
+
+}
+
+.black:hover{
+  border-radius: 12px;
+  border-style: none;
+  background-color: rgba(0, 0, 0, 40%);
+  padding: 12px;
+  margin: 12px;
+  color: black;
+  text-transform: uppercase;
+}
+
+
+.blackoutline:hover{
+  border-radius: 12px;
+  border: 1.5px solid rgba(0, 0, 0, 80%);
+  padding: 10.5px;
+  margin: 12px;
+  color: black;
+  background-color: rgba(0, 0, 0, 10%);
+} */
+
+
 
 button{
 letter-spacing: 2px;

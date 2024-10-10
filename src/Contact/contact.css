@@ -1,23 +1,23 @@
   .submitbutton{
-    font-family: "Lato";
     border-radius: 12px;
     border-style: none;
-    background-color: #c5f39f3d;
+    background-color: rgba(256, 256, 256, 50%);
     padding: 10px;
     margin: 10px;
     text-transform: uppercase;
-    color: white;
+    color: var(--blue);
     margin-left: 0;
 
   }
 
 
   .submitbutton:hover{
-    background-color: #c5f39f71;
+    background-color: rgba(256, 256, 256, 30%);
+    color: var(--blue);
 
-
-  
   }
+
+
 
 
 #contactform{
@@ -32,7 +32,6 @@
 .contactwrapper{
   height: 100vh;
 }
-
 
   
 textarea {
@@ -152,7 +151,7 @@ input:focus {
   .submitbutton{
     border-radius: 12px;
     border-style: none;
-    background-color: rgba(256, 256, 256, 20%);
+    background-color: rgba(256, 256, 256, 50%);
     padding: 10px;
     margin: 10px;
     text-transform: uppercase;
@@ -169,4 +168,13 @@ input:focus {
   
 }
 
+.success{
+  color: var(--lime-green);
+  font-family: "Lato-Italic";
+  
+}
+
+/* .success li::marker{
+  color: rgba(189, 23, 23, 0.793);
+} */
 

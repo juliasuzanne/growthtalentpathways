@@ -22,11 +22,15 @@ export default function WithSara() {
 
               <div className="ws-buttons">
                 <a href="https://www.linkedin.com/in/sarakontalonis/" target="_blank">
-                  <button className="black">LinkedIn</button>
+                  <button id="button-gen-solid" className="black">
+                    LinkedIn
+                  </button>
                 </a>
                 <br className="break" />
                 <a href="/SJKResumeGTS.pdf" download>
-                  <button className="blackoutline">CV</button>{" "}
+                  <button id="button-gen" className="blackoutline">
+                    CV
+                  </button>{" "}
                 </a>
               </div>
             </div>

@@ -19,9 +19,9 @@
 .white{
   border-radius: 20px;
   border-style: none;
-  background-color: rgba(256, 256, 256, 65%);
+  background-color: rgba(256, 256, 256, 50%);
   padding: 20px;
-  font-family: "Lato-Bold";
+  font-family: "Lato-SemiBold";
   margin: 30px;
   text-transform: uppercase;
   color: var(--blue);
@@ -49,7 +49,6 @@
   padding: 20px;
   margin: 30px;
   text-transform: uppercase;
-  color: white;
   margin-left: 0;
 
 
@@ -58,10 +57,9 @@
 .whiteoutline:hover{
   text-transform: uppercase;
   border-radius: 20px;
-  border: 2.5px solid rgba(256, 256, 256, 10%);
+  border: 2.5px solid rgba(256, 256, 256, 30%);
   background-color: rgba(256, 256, 256, 2%);
-
-  color: white;
+  color: rgba(255, 255, 255, 0.55);
   padding: 17.5px;
   margin-left: 0;
 
@@ -261,7 +259,7 @@
   .white{
     border-radius: 20px;
     border-style: none;
-    background-color: rgba(256, 256, 256, 65%);
+    background-color: rgba(256, 256, 256, 50%);
     padding: 20px;
     font-family: "Lato-Bold";
     margin: 30px;
@@ -345,7 +343,7 @@
 .white{
   border-radius: 15px;
   border-style: none;
-  background-color: rgba(256, 256, 256, 60%);
+  background-color: rgba(256, 256, 256, 50%);
   padding: 13.3px;
   margin: 0px;
   text-transform: uppercase;
@@ -484,11 +482,9 @@
   .white{
     border-radius: 15px;
     border-style: none;
-    background-color: rgba(256, 256, 256, 60%);
     padding: 13.3px;
     margin: 0px;
     text-transform: uppercase;
-    color: var(--blue);
     margin: 10px;
     margin-bottom: 20px;
   
@@ -499,7 +495,6 @@
     text-transform: uppercase;
     border-radius: 15px;
     border: 1.5px solid rgba(256, 256, 256, 50%);
-    color: rgba(255, 255, 255, 0.87);
     padding: 13.5px;
     background-color: transparent;
     margin-left: 0px;
@@ -514,7 +509,6 @@
     padding: 10px;
     margin: 10px;
     text-transform: uppercase;
-    color: white;
     margin-left: 0;
   
   
@@ -523,11 +517,9 @@
   .whiteoutline:hover{
     text-transform: uppercase;
     border-radius: 12px;
-    border: 1.5px solid rgba(256, 256, 256, 10%);
+    border: 1.5px solid rgba(256, 256, 256, 30%);
     background-color: rgba(256, 256, 256, 2%);
-  
-    color: white;
-    padding: 8.5px;
+      padding: 8.5px;
     margin-left: 0;
   
   

@@ -271,16 +271,16 @@
 .black{
   border-radius: 12px;
   border-style: none;
-  background-color: rgba(0, 0, 0, 20%);
+  background-color: rgba(0, 0, 0, 60%);
   padding: 12px;
   margin: 12px;
-  color: black;
+  color: var(--lime-green);
   text-transform: uppercase;
 }
 
 .blackoutline{
   border-radius: 12px;
-  border: 1.5px solid rgba(0, 0, 0, 50%);
+  border: 1.5px solid rgba(0, 0, 0, 80%);
   padding: 10.5px;
   margin: 12px;
   color: black;
@@ -294,16 +294,15 @@
   background-color: rgba(0, 0, 0, 40%);
   padding: 12px;
   margin: 12px;
-  color: black;
   text-transform: uppercase;
 }
 
 
 .blackoutline:hover{
   border-radius: 12px;
-  border: 1.5px solid rgba(0, 0, 0, 80%);
+  border: 1.5px solid rgba(0, 0, 0, 50%);
   padding: 10.5px;
   margin: 12px;
-  color: black;
+  color: rgba(0, 0, 0, 0.7);
   background-color: rgba(0, 0, 0, 10%);
 }

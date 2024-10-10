@@ -33,10 +33,14 @@ export default function Hero() {
             </p>
             <div className="hero-button-groupLG">
               <a href="#contact">
-                <button className="white">Contact</button>
+                <button id="button-gen-solid" className="white">
+                  Contact
+                </button>
               </a>
               <a href="#services">
-                <button className="whiteoutline">Services</button>
+                <button id="button-gen" className="whiteoutline">
+                  Services
+                </button>
               </a>
             </div>
           </div>
