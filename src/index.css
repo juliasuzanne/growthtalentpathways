@@ -1,7 +1,7 @@
 @property --bg-color {
   syntax: "<color>";
   inherits: false;
-  initial-value: #FAFFF1;
+  initial-value: #edf2e4;
   ;
 }
 
@@ -158,7 +158,6 @@ html {
   padding-bottom: 1px;
   padding-right: 5px;
   color: white;
-  opacity: 80%;
   text-align: center;
   letter-spacing: 1px;
   font-size: calc(3px + 1.4vh);
@@ -343,7 +342,6 @@ html {
     padding-bottom: 1px;
     padding-right: 5px;
     color: white;
-    opacity: 80%;
     text-align: center;
     letter-spacing: 1px;
     font-size: calc(3px + 1.4vh);

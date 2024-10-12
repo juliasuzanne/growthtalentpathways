@@ -42,7 +42,7 @@ export function Services() {
               settingNotVisible={stopAnimating}
             ></ObserverComponent>
 
-            <div className="col-lg-6 col-sm-12">
+            <div className="col-xl-6 col-lg-6 col-sm-12">
               <div
                 className={`${
                   startAnim && scrollAnim ? "services-title-main-sticky" : `services-title-main-rel${scrollAnim}`
@@ -70,6 +70,8 @@ export function Services() {
             <img className="balance" src="/balance.png" />
 
             <div className="col-lg-6 col-sm-12">
+              <div className="services-line"> </div>
+
               <ServicesComponent
                 image={"/icons-reg-03.png"}
                 content={[
@@ -89,6 +91,7 @@ export function Services() {
                 ]}
                 headline={"SELF-MARKETING & NETWORKING"}
               />
+              <div className="services-line2"> </div>
 
               <ServicesComponent
                 image={"/icons-reg-06.png"}
@@ -99,6 +102,7 @@ export function Services() {
                 ]}
                 headline={"INTERVIEW PREP"}
               />
+              <div className="services-line3"> </div>
             </div>
           </div>
 

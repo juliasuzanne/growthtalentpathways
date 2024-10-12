@@ -7,6 +7,8 @@
     text-transform: uppercase;
     color: var(--blue);
     margin-left: 0;
+    z-index: 8;
+    position: relative;
 
   }
 
@@ -17,6 +19,25 @@
 
   }
 
+
+/* .email-line1{
+  position: absolute;
+  transform: translate(8vw, 0vh);
+  width: .1vw;
+  height: calc(50vh + 12vw);
+  background-color: var(--lime-green);
+  z-index: 0;
+}
+
+.email-line2{
+  position: absolute;
+  transform: translate(8vw, calc(50vh + 12vw));
+  height: .1vw;
+  width: 5%;
+  background-color: var(--lime-green);
+  z-index: 0;
+}
+ */
 
 
 
@@ -94,7 +115,7 @@ input:focus {
 .email-main{
   z-index: -1;
   background-color: var(--blue);
-  min-height: 105vh;
+  /* min-height: 105vh; */
 }
 
   
@@ -165,6 +186,73 @@ input:focus {
   }
   
 }
+
+@media screen and (max-width: 768px){
+  .email-main{
+    z-index: -1;
+    background-color: var(--blue);
+    min-height: 95vh;
+  }
+  
+  .headertitle{
+    font-family: "Lato";
+    color: var(--lime-green);
+    font-size: calc(2.9vw + 1vh);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  .connector{
+    font-family: "NibPro-BoldItalic";
+    font-size: 42px;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    color: white;
+  
+  
+  }
+
+ 
+  #login{
+    width: 87%;
+    padding-top: 20vh;
+    margin: auto;
+    padding-bottom: 5vh;
+    
+  }
+
+  .form-control{
+    margin-bottom: 15px;
+  }
+
+  .connector{
+    font-family: "NibPro-SemiBoldItalic";
+    font-size: calc(5.9vw + 2.6vh);
+    letter-spacing: 1.6px;
+    text-transform: capitalize;
+    color: white;
+  
+  
+  }
+
+  .submitbutton{
+    border-radius: 12px;
+    border-style: none;
+    background-color: rgba(256, 256, 256, 50%);
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    margin-left: 0;
+
+  }
+
+  .submitbutton:hover{
+    font-family: "NibPro-BoldItalic";
+  
+  }
+  
+}
+
 
 .success{
   color: var(--lime-green);
