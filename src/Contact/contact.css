@@ -177,6 +177,7 @@ input:focus {
     margin: 10px;
     text-transform: uppercase;
     color: white;
+<<<<<<< HEAD
     margin-left: 0;
 
   }
@@ -244,11 +245,14 @@ input:focus {
     padding: 10px;
     margin: 10px;
     text-transform: uppercase;
+=======
+>>>>>>> parent of 974eaee (add Will's edits and fix send button on mobile font color)
     margin-left: 0;
 
   }
 
   .submitbutton:hover{
+    color: rgb(94, 98, 121);
     font-family: "NibPro-BoldItalic";
   
   }
