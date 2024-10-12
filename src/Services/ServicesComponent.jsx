@@ -5,12 +5,12 @@ import { AnimateTrigger } from "../AnimateTrigger";
 export function ServicesComponent(props) {
   const [showContent, setShowContent] = useState(true);
   const [buttonText, setButtonText] = useState("MORE v");
-  const [startAnim, setStartAnim] = useState(false);
+  // const [startAnim, setStartAnim] = useState(false);
 
-  const startAnimating = () => {
-    console.log("start animating services");
-    setStartAnim(true);
-  };
+  // const startAnimating = () => {
+  //   console.log("start animating services");
+  //   setStartAnim(true);
+  // };
 
   function handleClickMore() {
     if (showContent) {
@@ -27,7 +27,7 @@ export function ServicesComponent(props) {
 
   return (
     <div className="services-div">
-      <AnimateTrigger handleStartAnim={startAnimating}></AnimateTrigger>
+      {/* <AnimateTrigger handleStartAnim={startAnimating}></AnimateTrigger> */}
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-3 icon-container">

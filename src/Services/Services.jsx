@@ -2,10 +2,17 @@ import { ServicesComponent } from "./ServicesComponent";
 import { ObserverComponent } from "../ObserverComponent";
 import { useState } from "react";
 import "../lines.css";
+import { AnimateTrigger } from "../AnimateTrigger";
 
 export function Services() {
   const [startAnim, setStartAnim] = useState(false);
   const [scrollAnim, setScrollAnim] = useState(false);
+  const [startLine, setStartLine] = useState(false);
+
+  const startLineAnim = () => {
+    console.log("startLineHeadline");
+    setStartLine(true);
+  };
 
   const startAnimating = () => {
     console.log("startFixedHeadline");
@@ -32,6 +39,7 @@ export function Services() {
       <div className="services-overview">
         <div className="container">
           <div className="row">
+            <AnimateTrigger handleStartAnim={startLineAnim}></AnimateTrigger>
             <ObserverComponent
               mainDivClass={"blue"}
               settingVisible={startScroll}
@@ -92,7 +100,7 @@ export function Services() {
                 ]}
                 headline={"SELF-MARKETING & NETWORKING"}
               />
-              <div className={`${startAnim ? "services-line2-animate" : "services-line2"}`}> </div>
+              <div className={`${startLine ? "services-line2-animate" : "services-line2"}`}> </div>
 
               <ServicesComponent
                 image={"/icons-reg-06.png"}
