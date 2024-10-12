@@ -92,7 +92,7 @@ export function Services() {
                 ]}
                 headline={"SELF-MARKETING & NETWORKING"}
               />
-              <div className="services-line2"> </div>
+              <div className={`${startAnim ? "services-line2-animate" : "services-line2"}`}> </div>
 
               <ServicesComponent
                 image={"/icons-reg-06.png"}

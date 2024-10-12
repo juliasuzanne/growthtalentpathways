@@ -4,7 +4,7 @@ import "../lines.css";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import { Footer } from "../Footer";
-import Spacer from "../Spacer";
+import { AnimateTrigger } from "../AnimateTrigger";
 
 export function ContactForm() {
   const form = useRef();
@@ -12,6 +12,12 @@ export function ContactForm() {
   const [errorShow, setErrorShow] = useState(true);
   const [successMessageShow, setSuccessMessageShow] = useState(true);
   const [successMessage, setSuccessMessage] = useState([]);
+  const [startAnim, setStartAnim] = useState(false);
+
+  const startAnimating = () => {
+    console.log("startAnimatingEmailLine");
+    setStartAnim(true);
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -44,7 +50,7 @@ export function ContactForm() {
   return (
     <div>
       <div className="email-main">
-        <div className="email-line1"></div>
+        <div className={`${startAnim ? "email-line1-animate" : "email-line1"}`}></div>
         <div className="email-line2"></div>
 
         <div id="login">
@@ -52,6 +58,8 @@ export function ContactForm() {
             <div className="container">
               <div className="row">
                 <div className="email-outsides">
+                  <AnimateTrigger handleStartAnim={startAnimating}></AnimateTrigger>
+
                   <h2 id="contact" className="headertitle">
                     Ready To Get Started?
                   </h2>
