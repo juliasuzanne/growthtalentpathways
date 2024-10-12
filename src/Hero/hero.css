@@ -554,6 +554,10 @@
   
   }
 
+.hero-p-bold{
+  font-family: "Lato-SemiBold";  
+}
+
   .hero-logo{
     justify-content: right;
     height: 5.5vh;
