@@ -13,26 +13,20 @@
 @media screen and (max-width: 1500px){
   .services-line2{
     position: absolute;
-    height: calc(30vw + 40vh);
+    height: calc(40vw + 30vh);
     width: .25vw;
     background-color: var(--blue);
     top: calc(50vw + 50vh);
     transform: translateX(7vw);
     padding: 0;
     
-    }
-    
-    
+    } 
 } 
+
+
 @media screen and (max-width: 991px){
   .services-line2{
-    position: absolute;
-    height: calc(30vw + 40vh);
-    width: .25vw;
-    background-color: var(--blue);
-    top: 50vw;
-    transform: translateX(7vw);
-    padding: 0;
+    display: none;
     
     }
     
@@ -123,13 +117,42 @@
 }
 }
 
+
+@media screen and (max-width: 991px){
+
+  .ws-line1{
+   display: none;
+  }
+  .ws-line2{
+    display: none;
+  }
+  .ws-line3{
+    display: none;
+  }
+  .ws-line4{
+    display: none;
+  } 
+  
+  .ws-line5{
+    display: none;
+  }
+}
+
 .email-line1{
   position: absolute;
   transform: translate(6vw, 0vh);
   width: .1vw;
-  height: 100%;
+  height: 80%;
   background-color: var(--lime-green);
   z-index: 0;
+}
+
+@media screen and (max-width: 991px){
+
+  .email-line1{
+    height: 100vh;
+    display: none;
+  }
 }
 
 /* .email-line2{
