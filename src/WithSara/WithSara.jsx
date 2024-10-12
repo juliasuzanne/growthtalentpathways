@@ -20,9 +20,10 @@ export default function WithSara() {
                 <span className="ws-title21"> with </span> <span className="ws-title3">Sara</span>
               </h1>
               <p className="ws-p">
-                After spending many years in recruitment, I have unique insight into the interview and talent
-                acquisition processes. My passion is helping my clients develop essential habits to navigate the
-                transition from college life to the workplace, reducing stress through practical strategies.
+                A long and successful career in recruitment gives me powerful insight into the talent acquisition
+                process. My passion is helping you develop the habits needed to transition from college life to the
+                workplace, or from an early job you don't love to one that's right. All the while reducing your stress
+                and anxiety.
               </p>
 
               <div className="ws-buttons">
