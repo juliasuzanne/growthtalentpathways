@@ -131,8 +131,8 @@
     height: .1vw;
     width: 8.8%;
     /* background-color: var(--lime-green); */
-    z-index: 10;
-  } */
+    /* z-index: 10;
+  } */ */
 
 
 
@@ -202,6 +202,8 @@
   .ws-titlemain{
     line-height: 12vw;
     padding-right: 6vw;
+    background-color: rgb(200, 88, 88);
+
   }
   
 
@@ -219,6 +221,110 @@
   
 
 }
+
+/* @media screen and (max-width: 1081px){
+
+  .break{
+    display: inline;
+    width: 0;
+  }
+
+  .ws_portraitA{
+    display: none;
+
+  }
+
+  .portraitB-div{
+    max-height: 20vh;
+  }
+  .ws_portraitB{
+    display: flex;
+    transform: translate(-15vw, -30vw);
+    height: auto;
+    padding-left: 0;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    max-width:75vw;
+    width: auto;
+    height: auto;
+    z-index: 2;
+
+  }
+
+  .ws-buttons{
+    text-align: right;
+    padding-top: 2vh;
+    padding-right: 0;
+    
+  }
+  
+  .ws-textmain{
+    transform: translateY(15vw);
+    z-index: 5;
+    padding-top: 0vh;
+    padding-left: 0vw;
+    line-height: 3vh;
+    font-size: 2vh;
+    width: 100%;
+    float: bottom;
+
+    text-align: center;
+  }
+
+  .ws-title1{
+    font-family: "Lato-Light";
+    text-transform: uppercase;
+    font-size: 10.3vw;
+    line-height: 5vw;
+    background-color: transparent;
+
+  }
+
+  .ws-title20{
+    font-family: "NibPro-BoldItalic";
+    font-size: 7.3vw;
+    display: inline;
+    background-color: transparent;
+
+  }
+
+  .ws-title21{
+    font-family: "NibPro-BoldItalic";
+    font-size: 10.3vw;
+    display: none;
+    background-color: transparent;
+
+  }
+  
+  .ws-title3{
+    font-family: "NibPro-Bold";
+    text-transform: uppercase;
+    font-size: 20.5vw;
+  }
+
+
+  .ws-titlemain{
+    line-height: 21vw;
+    padding-right: 0vw;
+    background-color: transparent;
+
+  }
+  
+
+  .ws-p{
+    padding-top: 2vh;
+    text-align: justify;
+    line-height: 8vw;
+    width: 85%;
+    margin: auto;
+    font-size: 4.7vw;
+  
+  }
+  
+
+} */
 
 @media screen and (max-width: 581px){
 
@@ -267,6 +373,7 @@
     font-size: 2vh;
     width: 100%;
     float: bottom;
+
     text-align: center;
   }
 
@@ -275,18 +382,24 @@
     text-transform: uppercase;
     font-size: 10.3vw;
     line-height: 5vw;
+    background-color: transparent;
+
   }
 
   .ws-title20{
     font-family: "NibPro-BoldItalic";
     font-size: 7.3vw;
     display: inline;
+    background-color: transparent;
+
   }
 
   .ws-title21{
     font-family: "NibPro-BoldItalic";
     font-size: 10.3vw;
     display: none;
+    background-color: transparent;
+
   }
   
   .ws-title3{
@@ -299,6 +412,8 @@
   .ws-titlemain{
     line-height: 21vw;
     padding-right: 0vw;
+    background-color: transparent;
+
   }
   
 
