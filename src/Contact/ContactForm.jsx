@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./contact.css";
+import "../lines.css";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import { Footer } from "../Footer";
@@ -43,6 +44,9 @@ export function ContactForm() {
   return (
     <div>
       <div className="email-main">
+        <div className="email-line1"></div>
+        <div className="email-line2"></div>
+
         <div id="login">
           <form ref={form} onSubmit={sendEmail}>
             <div className="container">

@@ -1,6 +1,7 @@
 import { ServicesComponent } from "./ServicesComponent";
 import { ObserverComponent } from "../ObserverComponent";
 import { useState } from "react";
+import "../lines.css";
 
 export function Services() {
   const [startAnim, setStartAnim] = useState(false);

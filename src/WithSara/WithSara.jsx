@@ -1,8 +1,15 @@
 import "./withsara.css";
+import "../lines.css";
 
 export default function WithSara() {
   return (
     <div className="ws-main">
+      <div className="ws-line1"></div>
+      <div className="ws-line2"></div>
+      <div className="ws-line3"></div>
+      <div className="ws-line4"></div>
+      <div className="ws-line5"></div>
+
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-4 col-sm-12">

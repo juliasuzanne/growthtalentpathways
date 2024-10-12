@@ -14,7 +14,6 @@
   z-index: 2;
 
 }
-
 .ws-buttons{
   padding-top: 2vh;
   padding-right: 2vh;
@@ -54,6 +53,7 @@
   text-transform: uppercase;
   font-size: 3.7vw;
   line-height: 5vw;
+  
 }
 .ws-title20{
   font-family: "NibPro-BoldItalic";
@@ -74,6 +74,15 @@
   text-transform: uppercase;
   font-size: 5.5vw;
   line-height: 5vw;
+}
+
+.ws-titlemain{
+  background-color: var(--lime-green);
+  max-width: 25vw;
+  z-index: 10;
+  position: relative;
+  padding-left: 10px;
+
 }
 
 
@@ -143,6 +152,8 @@
 .ws-titlemain{
   line-height: 12vw;
   padding-right: 6vw;
+  background-color: var(--lime-green);
+
 }
 
 

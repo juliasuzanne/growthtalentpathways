@@ -26,6 +26,8 @@
   height: 70vh;
   margin: auto;
   text-align: left;
+  z-index: 5;
+
   
 }
 
@@ -35,6 +37,7 @@
 
   
 textarea {
+  position: relative;
   width: 100%;
   font-size: 1.1em;
   border-radius: 7px;
@@ -42,6 +45,7 @@ textarea {
   padding: .4em;
   font-family: "Lato";
   background-color: #EAEFE2;
+  z-index: 2;
 
 }
 
@@ -156,7 +160,6 @@ input:focus {
     margin: 10px;
     text-transform: uppercase;
     color: white;
-<<<<<<< HEAD
     margin-left: 0;
 
   }
@@ -169,7 +172,6 @@ input:focus {
   
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 768px){
   .email-main{
     z-index: -1;
@@ -225,8 +227,6 @@ input:focus {
     padding: 10px;
     margin: 10px;
     text-transform: uppercase;
-=======
->>>>>>> parent of 974eaee (add Will's edits and fix send button on mobile font color)
     margin-left: 0;
 
   }
@@ -239,9 +239,6 @@ input:focus {
   
 }
 
-
-=======
->>>>>>> parent of dc2c71f (Adding repsonsive styling, starting to code lines)
 .success{
   color: var(--lime-green);
   font-family: "Lato-Italic";
