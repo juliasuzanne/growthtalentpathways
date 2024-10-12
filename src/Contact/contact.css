@@ -176,11 +176,13 @@ input:focus {
     padding: 10px;
     margin: 10px;
     text-transform: uppercase;
+    color: white;
     margin-left: 0;
 
   }
 
   .submitbutton:hover{
+    color: rgb(94, 98, 121);
     font-family: "NibPro-BoldItalic";
   
   }
