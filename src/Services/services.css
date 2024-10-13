@@ -34,7 +34,7 @@ color: var(--lime-green);
 .red{
 background-color: rgba(255, 0, 0, 0);
 height: 20%;
-transform: translateY(30vh);
+transform: translateY(52vh);
 width: 20px;
 position: absolute;
 z-index: 6;
@@ -43,7 +43,7 @@ z-index: 6;
 .blue{
 background-color: rgba(0, 0, 255, 0);
 height: 20%;
-transform: translateY(80vh);
+transform: translateY(90vh);
 width: 20px;
 position: absolute;
 z-index: 6;
@@ -219,7 +219,7 @@ padding: 0;
 
 .services-title-main-reltrue{
   position: relative;
-  padding-top: calc(25vw + 10vh);
+  padding-top: calc(24vw + 22vh);
   max-width: 40vw;
 
 }
