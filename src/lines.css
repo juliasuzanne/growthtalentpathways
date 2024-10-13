@@ -312,7 +312,7 @@
   height: 80%;
   background-color: var(--lime-green);
   z-index: 0;
-  animation-duration: 2.5s;
+  animation-duration: 3s;
   animation-name: animate-email; 
 }
 

@@ -172,7 +172,7 @@ max-width: 87%;
 
 .services-p-bold{
 z-index: 5;
-font-family: "Lato-BoldItalic";
+font-family: "Lato-SemiBoldItalic";
 }
 
 .balance{
@@ -342,6 +342,13 @@ padding: 0;
 
 }
 
+.services-div-text{
+  font-size: .9em;
+  max-width: 96%;
+  padding-left: 8%;
+  line-height: 1.7em;
+}
+
 .more-button, .more-button-left{
   color: var(--lime-green);
   border-radius: 12px;
@@ -440,7 +447,7 @@ margin-left: 20px;
 
 .services-p-bold{
   z-index: 5;
-  font-family: "Lato-BoldItalic";
+  font-family: "Lato-SemiBoldItalic";
 }
 
 .balance{
@@ -479,6 +486,13 @@ margin-left: 20px;
   padding-right: 5vw;
   line-height: 5.25vw;
 }
+.services-div-text{
+  font-size: .9em;
+  max-width: 96%;
+  padding-left: 8%;
+  line-height: 1.7em;
+}
+
 
 .services-div-headline{
   font-size: 3.4vw;
@@ -567,7 +581,7 @@ margin-left: 20px;
 
 .services-p-bold{
   z-index: 5;
-  font-family: "Lato-BoldItalic";
+  font-family: "Lato-SemiBoldItalic";
 }
 
 .balance{
@@ -605,6 +619,13 @@ margin-left: 20px;
   padding-right: 5vw;
   line-height: 1.7em;
 }
+
+.services-div-text{
+  font-size: 1em;
+  max-width: 95%;
+  padding-left: 8%;
+}
+
 
 .services-div-headline{
   font-size: 1.5em;
@@ -698,7 +719,7 @@ margin-left: 20px;
 .services-p{
   z-index: 50;
   position: relative;
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-justify: inter-word;
   font-family: "Lato";
   margin-right: 0vw;
@@ -710,7 +731,7 @@ margin-left: 20px;
 
 .services-p-bold{
   z-index: 5;
-  font-family: "Lato-BoldItalic";
+  font-family: "Lato-SemiBoldItalic";
 }
 
 .balance{
@@ -736,7 +757,7 @@ li{
 .services-div{
   position: relative;
   z-index: 5;
-  font-size: 1.3em;
+  font-size: 1.1em;
   max-width: 100%;
   background-color: var(--blue);
   margin-bottom: 20px;
@@ -748,12 +769,12 @@ li{
   font-family: "Lato-Light";
   border-bottom-left-radius: 20px;
   min-width: 50vw;
-  padding-right: 5vw;
+  padding-right: 2vw;
   line-height: 1.3em;
 }
 
 .services-div-headline{
-  font-size: 1.4em;
+  font-size: 1.5em;
   letter-spacing: .12vw;
   font-family: "Lato";
   padding: 0;
@@ -782,6 +803,12 @@ li{
   font-size: 1em;
   margin-top: 40px;
 
+}
+
+.services-div-text{
+  font-size: 1em;
+  max-width: 95%;
+  padding-left: 8%;
 }
 
 

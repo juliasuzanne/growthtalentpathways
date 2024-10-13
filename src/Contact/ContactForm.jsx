@@ -58,13 +58,12 @@ export function ContactForm() {
             <div className="container">
               <div className="row">
                 <div className="email-outsides">
-                  <AnimateTrigger handleStartAnim={startAnimating}></AnimateTrigger>
-
                   <h2 id="contact" className="headertitle">
                     Ready To Get Started?
                   </h2>
                   <h2 className="connector">Let's Connect!</h2>
                   <br></br>
+                  <AnimateTrigger handleStartAnim={startAnimating}></AnimateTrigger>
                 </div>
               </div>
               <div className="break2"> </div>

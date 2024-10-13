@@ -6,17 +6,17 @@
   margin: 0;
   padding: 0;
   z-index: 0;
-  max-width:100vw;
+  max-width:50vw;
   max-height:100vh;
   width: auto;   
-  height: 50vw;
+  height: 45vw;
   transform: translate(-60px, -12vh);
   z-index: 2;
 
 }
 .ws-buttons{
-  padding-top: 2vh;
-  padding-right: 2vh;
+  padding-top: 10px;
+  padding-right: 10px;
 
 }
 
@@ -207,8 +207,7 @@
 
 .ws-buttons{
   text-align: right;
-  padding-top: 2vh;
-  padding-right: 0;
+  padding: 10px;
   
 }
 

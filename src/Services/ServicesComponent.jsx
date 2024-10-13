@@ -36,7 +36,7 @@ export function ServicesComponent(props) {
           <div className="col-lg-8 col-md-9">
             <h2 className="services-div-headline">{props.headline}</h2>
 
-            <ul hidden={showContent}>
+            <ul className="services-div-text" hidden={showContent}>
               {props.content.map((el) => {
                 return <li>{el}</li>;
               })}
