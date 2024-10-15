@@ -175,9 +175,9 @@
 
 .ws-line3-animate{
   position: absolute;
-  transform: translate(30.6vw, 6vh);
+  transform: translate(24.6vw, 6vh);
   height: .1vw;
-  width: 18%;
+  width: 25%;
   background-color: var(--blue);
   z-index: 10;
   animation-duration: 5s;
@@ -199,14 +199,14 @@
 }
 
 100%{
-  width: 18%;
-  transform: translate(30.6vw, 6vh);
+  width: 25%;
+  transform: translate(24.6vw, 6vh);
 
 }
 }
 .ws-line4{
   position: absolute;
-  height: .1vw;
+  height: 2vw;
   width: 8.8%;
   /* background-color: var(--lime-green); */
   z-index: 10;
@@ -215,7 +215,7 @@
 .ws-line5{
   transform: translate(6vw, 25vh);
   position: absolute;
-  height: 40%;
+  height: 80%;
   width: .1vw;
   background-color: var(--blue);
 }
